@@ -1,0 +1,40 @@
+After Release:
+auto reply email
+button text change and no movement after form submit
+fix mobile tap outside navbar closes hamburger
+fix/add first horizontal bar divider goes up too much
+fix button hold stays blue
+fix image not showing small screen
+handle missing meta info
+fix dune buggy text
+custom navbar callapse
+remove dependency from external resources
+add shadow on new contact section div
+loading javascript delay
+stop blinking when text done
+Search engine optimization
+clean code
+printer version
+reader version
+
+Ideas:
+custom color education school colors
+custom font awaome dots
+type out resources used using typed.js
+change heart icon on hover
+Format projects in style of clean snip found on the internet
+dark mode switch
+make floating professional profile
+Practical js on education felid
+navbar shadow fade in
+
+Other Ideas:
+Message Recived! 
+
+page confirmation 
+green box result
+button changes color to green and checkmark
+form shadow
+Contact disapears and meassage replaces
+
+https://sleeknote.com/contact

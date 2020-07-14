@@ -1,0 +1,1350 @@
+/* Site Color Pallet
+#0C0F0A black
+#052230 blue
+#DDD1C7 cream
+#B1B1B1 gray
+#FBFEFB white
+*/
+
+/*=================================================
+            EXTRA LARGE MEDIA QUERIES
+=================================================*/
+/* Responsive up to 4000px */
+@media (min-width: 3500px) {
+  .navbar-brand {
+    font-size: 30px !important;
+  }
+
+  .nav-link {
+    font-size: 24px !important;
+  }
+
+  /* Right and left screen edges */
+  #particles-js h1,
+  #particles-js h3 {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
+  #profile-body,
+  #spotlight-project-1,
+  #spotlight-project-2,
+  #spotlight-project-3,
+  .project-category,
+  .project-icon-stats,
+  #skill-body,
+  #education-body,
+  #contact,
+  #footer {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
+  #project-title h3 {
+    padding-left: 30%;
+  }
+
+  .reco-affi-outer-body {
+    padding-left: 30% !important;
+  }
+
+  .pass-time-outer-body {
+    padding-right: 30% !important;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 170px;
+  }
+}
+
+@media (min-width: 3000px) and (max-width: 3499px) {
+  .navbar-brand {
+    font-size: 28px !important;
+  }
+
+  .nav-link {
+    font-size: 22px !important;
+  }
+
+  /* Right and left screen edges */
+  #particles-js h1,
+  #particles-js h3 {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  #profile-body,
+  #spotlight-project-1,
+  #spotlight-project-2,
+  #spotlight-project-3,
+  .project-category,
+  .project-icon-stats,
+  #skill-body,
+  #education-body,
+  #contact,
+  #footer {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  #project-title h3 {
+    padding-left: 25%;
+  }
+
+  .reco-affi-outer-body {
+    padding-left: 25% !important;
+  }
+
+  .pass-time-outer-body {
+    padding-right: 25% !important;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 150px;
+  }
+}
+
+@media (min-width: 2800px) and (max-width: 2999px) {
+  .navbar-brand {
+    font-size: 28px !important;
+  }
+
+  .nav-link {
+    font-size: 22px !important;
+  }
+
+  /* Right and left screen edges */
+  #particles-js h1,
+  #particles-js h3 {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  #profile-body,
+  #spotlight-project-1,
+  #spotlight-project-2,
+  #spotlight-project-3,
+  .project-category,
+  .project-icon-stats,
+  #skill-body,
+  #education-body,
+  #contact,
+  #footer {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+
+  #project-title h3 {
+    padding-left: 20%;
+  }
+
+  .reco-affi-outer-body {
+    padding-left: 20% !important;
+  }
+
+  .pass-time-outer-body {
+    padding-right: 20% !important;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 130px;
+  }
+}
+
+@media (min-width: 2399px) and (max-width: 2799px) {
+  .navbar-brand {
+    font-size: 28px !important;
+  }
+
+  .nav-link {
+    font-size: 22px !important;
+  }
+
+  /* Right and left screen edges */
+  #particles-js h1,
+  #particles-js h3 {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  #profile-body,
+  #spotlight-project-1,
+  #spotlight-project-2,
+  #spotlight-project-3,
+  .project-category,
+  .project-icon-stats,
+  #skill-body,
+  #education-body,
+  #contact,
+  #footer {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  #project-title h3 {
+    padding-left: 15%;
+  }
+
+  .reco-affi-outer-body {
+    padding-left: 15% !important;
+  }
+
+  .pass-time-outer-body {
+    padding-right: 15% !important;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 120px;
+  }
+}
+
+@media (min-width: 2000px) and (max-width: 2399px) {
+  .navbar-brand {
+    font-size: 25px !important;
+  }
+
+  .nav-link {
+    font-size: 20px !important;
+  }
+
+  /* Right and left screen edges */
+  #particles-js h1,
+  #particles-js h3 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #profile-body,
+  #spotlight-project-1,
+  #spotlight-project-2,
+  #spotlight-project-3,
+  .project-category,
+  .project-icon-stats,
+  #skill-body,
+  #education-body,
+  #contact,
+  #footer {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  #project-title h3 {
+    padding-left: 10%;
+  }
+
+  .reco-affi-outer-body {
+    padding-left: 10% !important;
+  }
+
+  .pass-time-outer-body {
+    padding-right: 10% !important;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 100px;
+  }
+}
+
+@media (min-width: 1800px) and (max-width: 1999px) {
+  .navbar-brand {
+    font-size: 25px !important;
+  }
+
+  .nav-link {
+    font-size: 20px !important;
+  }
+
+  /* Right and left screen edges */
+  #particles-js h1,
+  #particles-js h3 {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  }
+
+  #profile-body,
+  #spotlight-project-1,
+  #spotlight-project-2,
+  #spotlight-project-3,
+  .project-category,
+  .project-icon-stats,
+  #skill-body,
+  #education-body,
+  #contact,
+  #footer {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  }
+
+  #project-title h3 {
+    padding-left: 7.5%;
+  }
+
+  .reco-affi-outer-body {
+    padding-left: 7.5% !important;
+  }
+
+  .pass-time-outer-body {
+    padding-right: 7.5% !important;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 100px;
+  }
+}
+
+@media (min-width: 1600px) and (max-width: 1799px) {
+  .navbar-brand {
+    font-size: 19.5px !important;
+  }
+
+  .nav-link {
+    font-size: 18px !important;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 90px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1599px) {
+  /* All clear */
+}
+
+/*=================================================
+            LARGE MEDIA QUERIES
+=================================================*/
+/* Non collapsed nav bar min working space */
+@media (min-width: 1067px) and (max-width: 1199px) {
+  .navbar-brand {
+    font-size: 20px !important;
+  }
+
+  .nav-link {
+    font-size: 18px !important;
+  }
+
+  /* Home screen */
+  #particles-js h1 {
+    font-size: 100px;
+  }
+
+  #particles-js h3 {
+    font-size: 32px;
+  }
+
+  .arrow svg {
+    width: 90px;
+    height: 90px;
+  }
+
+  /* Icon stat section */
+  .col-sm-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .stats-item h2 {
+    font-size: 32px;
+  }
+
+  .stats-item p {
+    font-size: 14.9px;
+  }
+
+  /* Full site padding and font size */
+  #profile-title h3,
+  #project-title h3,
+  .project-category-title h3,
+  #skill-title h3,
+  #education-title h3,
+  .reco-affi-past-title h3 {
+    padding-top: 55px;
+    font-size: 38.15px;
+  }
+
+  #contact-title h3 {
+    font-size: 38.15px;
+  }
+
+  #contact,
+  #footer {
+    padding-top: 55px;
+  }
+
+  h4 {
+    font-size: 23px;
+  }
+
+  Remove contact section horizontal bar
+  .contact-form-block {
+    border-right: 1px solid transparent;
+  }
+
+  /* Contact block effect */
+  .contact-outer-color-block {
+    height: 758px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1066px) {
+  .navbar-brand {
+    font-size: 26px !important;
+  }
+
+  .nav-link {
+    font-size: 20px !important;
+  }
+
+  /* Full site padding and font size */
+  #profile-title h3,
+  #project-title h3,
+  .project-category-title h3,
+  #skill-title h3,
+  #education-title h3,
+  .reco-affi-past-title h3 {
+    font-size: 35.3px;
+  }
+
+  #contact-title h3 {
+    font-size: 35.3px;
+  }
+
+  /* Full site padding and font size */
+  /* Section titles */
+  h3 {
+    padding-bottom: 2% !important;
+  }
+
+
+  h4 {
+    font-size: 22px;
+  }
+
+  p,
+  li {
+    font-size: 15.2px;
+  }
+  
+  /* Home screen */
+  #particles-js h1 {
+    font-size: 97px;
+  }
+
+  #particles-js h3 {
+    font-size: 30px;
+  }
+
+  .arrow svg {
+    width: 83px;
+    height: 83px;
+  }
+  
+  /* Icon stat section */
+  .fa-4x {
+    font-size: 52px !important;
+  }
+
+  .col-sm-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .stats-item h2 {
+    font-size: 28px;
+  }
+
+  .stats-item p {
+    font-size: 14px;
+  }
+  /* Footer */
+  .copyright-text {
+    font-size: 12px !important;
+  }
+}
+
+/*=================================================
+            MEDIUM MEDIA QUERIES
+=================================================*/
+@media (min-width: 850px) and (max-width: 991px) {
+  /* Full site padding and font size */
+  #profile-title h3,
+  #project-title h3,
+  .project-category-title h3,
+  #skill-title h3,
+  #education-title h3,
+  .reco-affi-past-title h3 {
+    padding-top: 60px;
+    font-size: 30.1px;
+  }
+
+  #contact-title h3 {
+    font-size: 30.1px;
+  }
+
+  #contact,
+  #footer {
+    padding-top: 60px;
+  }
+
+  h4 {
+    font-size: 19px;
+  }
+
+  p,
+  li {
+    font-size: 13px;
+  }
+
+  ul {
+    padding-left: 4%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-right: 0%;
+  }
+
+  /* Home screen */
+  #particles-js h1 {
+    font-size: 92px;
+  }
+
+  #particles-js h3 {
+    font-size: 28px;
+  }
+
+  .arrow svg {
+    width: 83px;
+    height: 83px;
+  }
+
+  /* projects */
+  #spotlight-project-1,
+  #spotlight-project-2,
+  #spotlight-project-3,
+  .project-category {
+    padding-bottom: 20px;
+  }
+
+  /* Icon stat section */
+  .fa-4x {
+    font-size: 47px !important;
+  }
+
+  .col-sm-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .stats-item h2 {
+    font-size: 28px;
+  }
+
+  .stats-item p {
+    font-size: 11.95px;
+  }
+
+  /* Remove contact section horizontal bar */
+  .contact-form-block {
+    border-right: 1px solid transparent;
+  }
+
+  /* Contact section */
+  .contact-text {
+    font-size: 13px;
+  }
+
+  label,
+  textarea,
+  option,
+  .btn-submit,
+  .form-control {
+    font-size: 15px !important;
+  }
+
+  /* Contact block effect */
+  .contact-outer-color-block {
+    height: 758px;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 45px;
+  }
+
+  /* Footer */
+  .copyright-text {
+    font-size: 10.5px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 849px) {
+  /* Full site padding and font size */
+  #profile-title h3,
+  #project-title h3,
+  .project-category-title h3,
+  #skill-title h3,
+  #education-title h3,
+  .reco-affi-past-title h3 {
+    padding-top: 60px;
+    font-size: 27.1px;
+  }
+
+  #contact-title h3 {
+    font-size: 27.1px;
+  }
+
+  #contact,
+  #footer {
+    padding-top: 60px;
+  }
+
+  /* Full site padding and font size */
+  /* Section titles */
+  h3 {
+    padding-bottom: 2% !important;
+  }
+
+  h4 {
+    font-size: 17px;
+  }
+
+  p,
+  li {
+    font-size: 11.5px;
+  }
+
+  ul {
+    padding-left: 4%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    padding-right: 0%;
+  }
+
+  /* Home screen */
+  #particles-js h1 {
+    font-size: 87px;
+  }
+
+  #particles-js h3 {
+    font-size: 26px;
+  }
+
+  .arrow svg {
+    width: 80px;
+    height: 80px;
+  }
+
+  /* projects */
+  #spotlight-project-1,
+  #spotlight-project-2,
+  #spotlight-project-3,
+  .project-category {
+    padding-bottom: 5px;
+  }
+
+  /* Icon stat section */
+  .fa-4x {
+    font-size: 45px !important;
+  }
+
+  .col-sm-6 {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .stats-item h2 {
+    font-size: 26px;
+  }
+
+  .stats-item p {
+    font-size: 10.86px;
+  }
+
+  /* Remove contact section horizontal bar */
+  .contact-form-block {
+    border-right: 1px solid transparent;
+  }
+
+  /* Contact section */
+  .contact-text {
+    font-size: 11px;
+  }
+
+  label,
+  textarea,
+  option,
+  .btn-submit,
+  .form-control {
+    font-size: 13px !important;
+  }
+
+  /* Contact block effect */
+  .contact-outer-color-block {
+    height: 700px;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 45px;
+  }
+}
+
+/*=================================================
+            SMALL MEDIA QUERIES
+=================================================*/
+@media (min-width: 672px) and (max-width: 767px) {
+  /* Full site padding and font size */
+  #profile-title h3,
+  #project-title h3,
+  .project-category-title h3,
+  #skill-title h3,
+  #education-title h3,
+  .reco-affi-past-title h3 {
+    padding-top: 60px;
+    font-size: 35px;
+  }
+
+  #contact-title h3 {
+    font-size: 35px;
+  }
+
+  #contact,
+  #footer {
+    padding-top: 60px;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  p,
+  li {
+    font-size: 15px;
+  }
+
+  /* Home screen */
+  #particles-js h1 {
+    font-size: 105px;
+  }
+
+  #particles-js h3 {
+    font-size: 30px;
+  }
+
+  .arrow svg {
+    width: 95px;
+    height: 95px;
+  }
+
+  /* projects */
+  #spotlight-project-1,
+  #spotlight-project-2,
+  #spotlight-project-3,
+  .project-category {
+    padding-bottom: 10px;
+  }
+
+  /* Icon stat section */
+  .fa-4x {
+    font-size: 60px !important;
+  }
+
+  .stats-item h2 {
+    font-size: 30px;
+  }
+
+  .stats-item p {
+    font-size: 16px;
+  }
+
+  /* Recognitions, Affiliations & Current Past Times */
+  .reco-affi-outer-body,
+  .pass-time-outer-body {
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+  }
+
+  #pass-time-body {
+    padding-left: 0%;
+  }
+
+  .text-muted {
+    font-size: 13px;
+  }
+
+  /* Remove contact section horizontal bar */
+  .contact-form-block {
+    border-right: 1px solid transparent;
+  }
+
+  /* Contact section */
+  .form-block {
+    max-width: 800px;
+  }
+
+  #contact-body {
+    padding-left: 0px;
+  }
+
+  .contact-text {
+    font-size: 15px;
+  }
+
+  /* Contact greeting */
+  .contact-greeting {
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+
+  /* Contact block effect */
+  .contact-outer-color-block {
+    height: 1110px;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 35px;
+  }
+
+  /* Footer */
+  .copyright-text {
+    font-size: 11.5px !important;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 671px) {
+  /* Full site padding and font size */
+  #profile-title h3,
+  #project-title h3,
+  .project-category-title h3,
+  #skill-title h3,
+  #education-title h3,
+  .reco-affi-past-title h3 {
+    padding-top: 60px;
+    font-size: 35px;
+  }
+
+  #contact-title h3 {
+    font-size: 35px;
+  }
+
+  #contact,
+  #footer {
+    padding-top: 60px;
+  }
+
+  /* Full site padding and font size */
+  /* Section titles */
+  h3 {
+    padding-bottom: 4% !important;
+  }
+
+  h4 {
+    font-size: 22px;
+  }
+
+  p,
+  li {
+    font-size: 13.5px;
+  }
+
+  ul {
+    padding: 4%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+
+  /* Home screen */
+  #particles-js h1 {
+    font-size: 105px;
+  }
+
+  #particles-js h3 {
+    font-size: 30px;
+  }
+
+  .arrow svg {
+    width: 95px;
+    height: 95px;
+  }
+
+  /* projects */
+  #spotlight-project-1,
+  #spotlight-project-2,
+  #spotlight-project-3,
+  .project-category {
+    padding-bottom: 10px;
+  }
+
+  /* Icon stat section */
+  .fa-4x {
+    font-size: 65px !important;
+  }
+
+  .stats-item h2 {
+    font-size: 35px;
+  }
+
+  .stats-item p {
+    font-size: 17px;
+  }
+
+  /* Recognitions, Affiliations & Current Past Times */
+  .reco-affi-outer-body,
+  .pass-time-outer-body {
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+  }
+
+  #pass-time-body {
+    padding-left: 0%;
+  }
+
+  .text-muted {
+    font-size: 13px;
+  }
+
+  /* Remove contact section horizontal bar */
+  .contact-form-block {
+    border-right: 1px solid transparent;
+  }
+
+  /* Contact section */
+  .form-block {
+    max-width: 800px;
+  }
+
+  #contact-body {
+    padding-left: 0px;
+  }
+
+  .contact-text {
+    font-size: 13.5px;
+  }
+
+  /* Contact greeting */
+  .contact-greeting {
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+
+  /* Contact block effect */
+  .contact-outer-color-block {
+    height: 1085px;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 35px;
+  }
+
+  /* Footer */
+  .copyright-text {
+    font-size: 11px !important;
+  }
+}
+
+/*=================================================
+            EXTRA SMALL MEDIA QUERIES
+=================================================*/
+@media (min-width: 480px) and (max-width: 575px) {
+  /* Full site padding and font size */
+  #profile-title h3,
+  #project-title h3,
+  .project-category-title h3,
+  #skill-title h3,
+  #education-title h3,
+  .reco-affi-past-title h3 {
+    padding-top: 60px;
+    font-size: 35px;
+  }
+
+  #contact-title h3 {
+    font-size: 35px;
+  }
+
+  #contact,
+  #footer {
+    padding-top: 60px;
+  }
+
+  /* Full site padding and font size */
+  /* Section titles */
+  h3 {
+    padding-bottom: 3% !important;
+  }
+
+  h4 {
+    font-size: 21.05px;
+  }
+
+  p,
+  li {
+    font-size: 14px;
+  }
+
+  ul {
+    padding: 4%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+  
+  /* Home screen */
+  #particles-js h1 {
+    font-size: 100px;
+  }
+
+  #particles-js h3 {
+    font-size: 27px;
+  }
+
+  .arrow svg {
+    width: 95px;
+    height: 95px;
+  }
+
+  /* Icon stat section */
+  .fa-4x {
+    font-size: 65px !important;
+  }
+
+  .stats-item h2 {
+    font-size: 35px;
+  }
+
+  .stats-item p {
+    font-size: 17px;
+  }
+
+  /* Recognitions, Affiliations & Current Past Times */
+  .reco-affi-outer-body,
+  .pass-time-outer-body {
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+  }
+
+  #pass-time-body {
+    padding-left: 0%;
+  }
+
+  .text-muted {
+    font-size: 11px;
+  }
+
+  /* Remove contact section horizontal bar */
+  .contact-form-block {
+    border-right: 1px solid transparent;
+  }
+
+  /* Contact section */
+  .form-block {
+    max-width: 800px;
+  }
+
+  #contact-body {
+    padding-left: 0px;
+  }
+
+  .contact-text {
+    font-size: 14px;
+  }
+
+  /* Contact greeting */
+  .contact-greeting {
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+
+  /* Contact block effect */
+  .contact-outer-color-block {
+    height: 1721px;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 35px;
+  }
+  
+  /* Footer */
+  .copyright-text {
+    font-size: 12px !important;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 479px) {
+  /* Navigation */
+  #back-to-top {
+    display: none !important;
+  }
+
+  /* Full site padding and font size */
+  #profile-title h3,
+  #project-title h3,
+  .project-category-title h3,
+  #skill-title h3,
+  #education-title h3,
+  .reco-affi-past-title h3 {
+    padding-top: 60px;
+    font-size: 28.7px;
+  }
+
+  #contact-title h3 {
+    font-size: 28.7px;
+  }
+
+  #contact,
+  #footer {
+    padding-top: 60px;
+  }
+
+  /* Full site padding and font size */
+  /* Section titles */
+  h3 {
+    padding-bottom: 3% !important;
+  }
+
+  /* Sub-section titles */
+  h4 {
+    font-size: 18.1px;
+  }
+
+  p,
+  li {
+    font-size: 11.5px;
+  }
+
+  ul {
+    padding: 4%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+
+  /* Home screen */
+  #particles-js h1 {
+    font-size: 75px;
+  }
+
+  #particles-js h3 {
+    font-size: 18px;
+  }
+
+  .arrow svg {
+    width: 65px;
+    height: 65px;
+  }
+
+  /* Icon stat section */
+  .fa-4x {
+    font-size: 48px !important;
+  }
+
+  .stats-item h2 {
+    font-size: 23px;
+  }
+
+  .stats-item p {
+    font-size: 12px;
+  }
+
+  /* Education */
+
+  /* Recognitions, Affiliations & Current Past Times */
+  .reco-affi-outer-body,
+  .pass-time-outer-body {
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+  }
+
+  #pass-time-body {
+    padding-left: 0%;
+  }
+
+  /* Remove contact section horizontal bar */
+  .contact-form-block {
+    border-right: 1px solid transparent;
+  }
+
+  /* Contact section */
+  #contact-body {
+    padding-left: 0px;
+  }
+
+  .text-muted {
+    font-size: 9px;
+  }
+
+  .contact-text {
+    font-size: 11.5px;
+  }
+
+  label,
+  textarea,
+  option,
+  .btn-submit,
+  .form-control {
+    font-size: 11px !important;
+  }
+
+  /* Contact greeting */
+  .contact-greeting {
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+
+  /* Contact block effect */
+  .contact-outer-color-block {
+    height: 1473px;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 35px;
+  }
+  
+  /* Footer */
+  .copyright-text {
+    font-size: 10.1px !important;
+  }
+}
+
+/* @media (min-width: 300px) and (max-width: 389px) { */
+@media (max-width: 389px) {
+  /* Navigation */
+  #back-to-top {
+    display: none !important;
+  }
+
+  /* Full site padding and font size */
+  #profile-title h3,
+  #project-title h3,
+  .project-category-title h3,
+  #skill-title h3,
+  #education-title h3,
+  .reco-affi-past-title h3 {
+    padding-top: 60px;
+    font-size: 22.1px;
+  }
+
+  #contact-title h3 {
+    font-size: 22.1px;
+  }
+
+  #contact,
+  #footer {
+    padding-top: 60px;
+  }
+
+  /* Full site padding and font size */
+  /* Section titles */
+  h3 {
+    padding-bottom: 3% !important;
+  }
+
+  /* Sub-section titles */
+  h4 {
+    font-size: 15px;
+  }
+
+  p,
+  li {
+    font-size: 11px;
+  }
+
+  ul {
+    padding: 5%;
+    padding-top: 0%;
+    padding-bottom: 0%;
+  }
+
+  /* Home screen */
+  #particles-js h1 {
+    font-size: 75px;
+  }
+
+  #particles-js h3 {
+    font-size: 18px;
+  }
+
+  .arrow svg {
+    width: 65px;
+    height: 65px;
+  }
+
+  /* Icon stat section */
+  .fa-4x {
+    font-size: 48px !important;
+  }
+
+  .stats-item h2 {
+    font-size: 23px;
+  }
+
+  .stats-item p {
+    font-size: 12px;
+  }
+
+  /* Recognitions, Affiliations & Current Past Times */
+  .reco-affi-outer-body,
+  .pass-time-outer-body {
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+  }
+
+  #pass-time-body {
+    padding-left: 0%;
+  }
+
+  /* Contact section */
+
+  /* Remove contact section horizontal bar */
+  .contact-form-block {
+    border-right: 1px solid transparent;
+  }
+  
+  #contact-body {
+    padding-left: 0px;
+  }
+
+  .text-muted {
+    font-size: 9px;
+  }
+
+  .contact-text {
+    font-size: 11px;
+  }
+
+  label,
+  textarea,
+  option,
+  .btn-submit,
+  .form-control {
+    font-size: 11px !important;
+  }
+
+  /* Contact greeting */
+  .contact-greeting {
+    padding-top: 30px;
+    padding-left: 0px;
+  }
+
+  /* Contact block effect */
+  .contact-outer-color-block {
+    height: 1363px;
+  }
+
+  /* Footer block effect */
+  .footer-inner-color-block {
+    top: 25px;
+  }
+  
+  /* Footer */
+  .copyright-text {
+    font-size: 7.5px !important;
+  }
+}
