@@ -10,27 +10,33 @@ $(function () {
 });
 
 /*==================================================================
-            NAV & BACK TO TOP BUTTON
+            SIDE BAR & BACK TO TOP BUTTON
 ==================================================================*/
-// Navbar link closes navbar.
-$('.navbar-nav>li>a').on('click', function(){
-    $('.navbar-collapse').collapse('hide');
-});
-
-// Back to top and nav bar animation.
-$(function () {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() < 100) {
-            // Hide and fade out
-            $("nav").removeClass("shadow-sm");
-            $("#back-to-top").fadeOut();
-        } else {
-            // Show the fade in
-            $("nav").addClass("shadow-sm");
-            $("#back-to-top").fadeIn();
-        }
+$(document).ready(function () {
+    $('#sidebarCollapse').on('click', function () {
+        $('#sidebar').toggleClass('active');
     });
 });
+
+// // Navbar link closes navbar.
+// $('.navbar-nav>li>a').on('click', function(){
+//     $('.navbar-collapse').collapse('hide');
+// });
+
+// // Back to top and nav bar animation.
+// $(function () {
+//     $(window).scroll(function () {
+//         if ($(this).scrollTop() < 100) {
+//             // Hide and fade out
+//             $("nav").removeClass("shadow-sm");
+//             $("#back-to-top").fadeOut();
+//         } else {
+//             // Show the fade in
+//             $("nav").addClass("shadow-sm");
+//             $("#back-to-top").fadeIn();
+//         }
+//     });
+// });
 
 /*==================================================================
             HOME
