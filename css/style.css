@@ -453,6 +453,43 @@ a.article:hover {
   }
   
 /*=================================================
+    H3 & PADDING FOR PROFILE, PROJECT, SKILL, EDUCATION, RECO-AFFI, CONTACT
+    SKILL & EDUCATION ALL
+=================================================*/
+#profile-body,
+#spotlight-project-1,
+#spotlight-project-2,
+#spotlight-project-3,
+.project-category,
+.project-icon-stats,
+#skill-body,
+#education-body,
+#contact,
+#footer {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+#profile-title h3,
+#project-title h3,
+.project-category-title h3,
+#skill-title h3,
+#education-title h3,
+.reco-affi-past-title h3 {
+  padding-top: 70px;
+  padding-bottom: 24px;
+  font-weight: 600;
+  font-size: 42px;
+  margin-bottom: 0px;
+  color: #052230;
+}
+
+.section-card {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/*=================================================
     CONTACT / FOOTER
 =================================================*/
 #contact,
