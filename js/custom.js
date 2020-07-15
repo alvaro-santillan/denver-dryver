@@ -42,8 +42,8 @@ $(window).scroll(function () {
 // // Type effect
 $(function () {
   var typed = new Typed('.typed', {
-      strings: ['An analysis of Denver Uber 3200+ trips. ', 'Includes every city 25 miles of Denver.', 'Taken mostly in the summer&apos;s of 2018 and 2019. ', 'Learn what rideshare companies don&apos;t disclose.', 'Take a look at what its like to be a Denver Driver.', 'An analysis of Denver Uber 3200+ trips. '],
-      startDelay: 3000,
+      strings: [' ', 'An analysis of Denver Uber 3200+ trips. '],
+      startDelay: 1000,
       typeSpeed: 45,
       backSpeed: 20,
       backDelay: 1000,
