@@ -461,7 +461,7 @@ a.article:hover {
 #spotlight-project-2,
 #spotlight-project-3,
 .project-category,
-.project-icon-stats,
+.stats-body,
 #skill-body,
 #education-body,
 #contact,
@@ -472,6 +472,16 @@ a.article:hover {
 
 #section-title h3 {
     padding-left: 7.5%;
+}
+
+.stats-item {
+    padding-top: 7.5%;
+    padding-bottom: 7.5%;
+    text-align: center;
+}
+
+.stats-item p {
+    margin-bottom: 0;
 }
 
 #profile-title h3,
