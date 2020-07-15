@@ -130,24 +130,140 @@
                 </div>
             </section>
 
-            <h2>Collapsible Sidebar Using Bootstrap 4</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <!--================================================
+                CONTACT
+            =================================================-->
+            <!-- Contact block effect has to be outside section -->
+            <div class='contact-outer-color-block'>
+                <br><br><br><br><br><br>
+                <div class="contact-inner-color-block"></div>
+            </div>
 
-            <div class="line"></div>
+            <section id="contact">
+                <div id="contact-title">
+                    <h3>Contact Me</h3>
+                </div>
+                <div class='container-fluid'>
+                    <div class="row">
 
-            <h2>Lorem Ipsum Dolor</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <!-- Contact form -->
+                        <div class="col-sm-12 col-md-6 d-flex justify-content-start contact-form-block">
+                            <div class="card mb-1 form-block">
+                                <div class="row shadow no-gutters">
+                                    <div class="col-sm-4 col-md-3 col-lg-4 col-xl-5 shadow">
+                                        <img src="img/contact.jpg" class="card-img-top" alt="Picture of coffee in a cup">
+                                    </div>
+                                    <div class="col-sm-8 col-md-9 col-lg-8 col-xl-7">
+                                        <div class="card-body">
+                                            <form class="needs-validation" novalidate method="POST" action="./php/form.php">
+                                                <!-- required used for floating label effect. -->
+                                                <div class="inputBox form-group first-name-box">
+                                                    <input type="text" required="" name="first-name-input" class="inputBox form-control">
+                                                    <label>First Name</label>
+                                                    <div class="invalid-tooltip">
+                                                        Please provide your first name.
+                                                    </div>
+                                                </div>
+                                                <div class="inputBox form-group">
+                                                    <input type="text" required="" name="last-name-input" class="inputBox form-control">
+                                                    <label>Last Name</label>
+                                                    <div class="invalid-tooltip">
+                                                        Please provide your last name.
+                                                    </div>
+                                                </div>
+                                                <div class="inputBox form-group">
+                                                    <input type="email" required="" name="email-input" class="inputBox form-control email-box">
+                                                    <label>Email Address</label>
+                                                    <div class="invalid-tooltip">
+                                                        Please provide a valid email.
+                                                    </div>
+                                                </div>
+                                                <p class="contact-text text-center">
+                                                    <small class="text-muted">I respect your privacy. Your email will not be shared.</small>
+                                                </p>
+                                                <div class="selector-and-message form-group">
+                                                    <label>Subject</label>
+                                                    <select class="form-control" name="subject-input" id="subjectDrop" required>
+                                                        <option value="" selected>Select an option...</option>
+                                                        <option value="">Employment opportunity</option>
+                                                        <option>Question</option>
+                                                        <option>Website feedback</option>
+                                                        <option>Skill-Set feedback</option>
+                                                        <option>Personality feedback</option>
+                                                        <option>Other</option>
+                                                    </select>
+                                                    <div class="invalid-tooltip">
+                                                        Please select a valid option.
+                                                    </div>
+                                                </div>
+                                                <div class="selector-and-message form-group">
+                                                    <label>Message</label>
+                                                    <textarea class="form-control" name="message-input" rows="3" placeholder="Hello, my name is Fernando, Talent Recruiter at Santillan Mobile, LLC." required></textarea>
+                                                    <div class="invalid-tooltip">
+                                                        Please provide a message.
+                                                    </div>
+                                                </div>
+                                                <button type="submit" id="submit-btn" class="btn btn-block btn-submit">Submit</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
-            <div class="line"></div>
+                        <div class="col-md-6 d-flex justify-content-center contact-greeting">
+                            <div id="contact-body">
+                                <h4 class="text-center card-title">Thank you for your interest!</h4>
+                                <p class="contact-text card-text">I hope that I impressed you enough to reach out if you're interested in having me join your
+                                    team or company. Feel free to browse my GitHub repositories, view and/or add me on LinkedIn,
+                                    or view my latest resume by clicking the respective icons below. You can also send me a
+                                    message using the contact form on this website. If you do decide to send a message using
+                                    this website, keep an eye out on the email you used.</p>
+                                <hr>
+                                <p class="contact-text text-center card-text">Professional contact forms are high priority and are replied to
+                                    within 24 hours. A confirmation email is sent out shortly after a message is sent.</p>
+                                <!-- Social icons -->
+                                <div class="text-center container">
+                                    <!--https://stackoverflow.com/questions/39441877/font-awesome-icons-have-text-decoration-issues-inside-links-->
+                                    <a href="https://github.com/AFSM1995" target="#"><p class="list-inline-item"><i class="fab fa-github-square fa-3x"></i></p></a>
+                                    <a href="https://www.linkedin.com/in/álvaro-santillan-2b0764173" target="#"><p class="list-inline-item"><i class="fab fa-linkedin fa-3x" aria-hidden="true"></i></p></a>
+                                    <a href="https://drive.google.com/file/d/1aJPGHDLkGpb_V4cX5sUvxJtzaIpoVJAN/view?usp=sharing" target="#"><p class="list-inline-item"><i class="fab fa-google-drive fa-3x" aria-hidden="true"></i></p></a>
+                                </div>
+                            </div>
+                        </div>
 
-            <h2>Lorem Ipsum Dolor</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
+                </div>
+            </section>
 
-            <div class="line"></div>
+            <!--================================================
+                FOOTER
+            =================================================-->
+            <footer class="footer-outer-color-block">
+                <div class="footer-inner-color-block shadow"></div>
+                
+                <div id="footer">
+                    <div class="footer-container container">
+                        <div class="row text-center">
+                            <!-- Copyright message -->
+                            <div class="col-md-12">
+                                <p class="contact-text copyright-text">Made from scratch with <i class="far fa-heart"></i>, Javascript, Bootstrap and a CodePen or
+                                    2.<br>Copyright © 2019-2020 Álvaro F Santillan. All rights reserved.</p>
+                            </div>
+                        </div>
+                    </div>
 
-            <h3>Lorem Ipsum Dolor</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <!-- Back to top button -->
+                    <!-- d-none d-sm-block -->
+                    <a href="#home" id="back-to-top" class="btn shadow btn-back-to-top" role="button">
+                        <svg class="bi bi-chevron-up" width="20" height="30" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M9.646 6.646a.5.5 0 01.708 0l6 6a.5.5 0 01-.708.708L10 7.707l-5.646 5.647a.5.5 0 01-.708-.708l6-6z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+                </div>
+                
+            </footer>
+
         </div>
     </div>
 
@@ -158,8 +274,6 @@
     <!-- Bootstrap JS -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
 
-
 </body>
-
 
 </html>
