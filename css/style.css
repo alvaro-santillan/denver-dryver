@@ -331,11 +331,16 @@ a.article:hover {
     -moz-animation: bounce 4s infinite;
     -webkit-animation: bounce 4s infinite;
   }
+
+  .typed {
+    display: inline-block;
+    /* opacity: 100%; */
+  }
   
   /* blinking animation */
   .typed::after {
     content: " |";
-    display: inline;
+    display: inline-block;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;

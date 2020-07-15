@@ -18,21 +18,14 @@ $(document).ready(function () {
     });
 });
 
-// // Navbar link closes navbar.
-// $('.navbar-nav>li>a').on('click', function(){
-//     $('.navbar-collapse').collapse('hide');
-// });
-
 // // Back to top and nav bar animation.
 $(function () {
     $(window).scroll(function () {
         if ($(this).scrollTop() < 100) {
             // Hide and fade out
-            // $("nav").removeClass("shadow-sm");
             $("#back-to-top").fadeOut();
         } else {
             // Show the fade in
-            // $("nav").addClass("shadow-sm");
             $("#back-to-top").fadeIn();
         }
     });
@@ -43,23 +36,22 @@ $(function () {
 ==================================================================*/
 // Fades arrow as you scroll.
 $(window).scroll(function () {
-    $(".home-body").css("opacity", 1 - $(window).scrollTop() / 300);
+    $(".arrow").css("opacity", 1 - $(window).scrollTop() / 500);
 });
 
-// Type effect
-// $(function () {
-//     var typed = new Typed('.typed', {
-//         strings: ['| My name is Álvaro F Santillan.', '| I&apos;m a CU Boulder junior majoring in CS (BS).', '| I&apos;m a CU Boulder buff minoring in TAM (BS).', '| I&apos;m an aspiring mobile application developer.', '| I&apos;m an aspiring full-stack developer.', '| I have experience making iOS and Android apps.', '| I have experience making well-designed websites.', '| I have experience with Python and Python libraries.', '| I have experience with Swift, Xcode, Java, and Android Studios.', '| I work with the professionals around me.', '| I build on the giants before me.', '| I like to design and create software.', '| Let&apos;s create something great together.'],
-//         // strings: ['| My name is Álvaro F Santillan.', '| I have experience with Swift, Xcode, Java, and Android Studios.'],
-//         startDelay: 3000,
-//         typeSpeed: 45,
-//         backSpeed: 20,
-//         backDelay: 1000,
-//         loop: true,
-//         loopCount: 1,
-//         smartBackspace: true
-//     });
-// });
+// // Type effect
+$(function () {
+  var typed = new Typed('.typed', {
+      strings: ['An analysis of Denver Uber 3200+ trips. ', 'Includes every city 25 miles of Denver.', 'Taken mostly in the summer&apos;s of 2018 and 2019. ', 'Learn what rideshare companies don&apos;t disclose.', 'Take a look at what its like to be a Denver Driver.', 'An analysis of Denver Uber 3200+ trips. '],
+      startDelay: 3000,
+      typeSpeed: 45,
+      backSpeed: 20,
+      backDelay: 1000,
+      loop: true,
+      loopCount: 1,
+      smartBackspace: true
+  });
+});
 
 /*==================================================================
             CONTACT
