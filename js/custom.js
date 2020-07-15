@@ -42,7 +42,7 @@ $(window).scroll(function () {
 // // Type effect
 $(function () {
   var typed = new Typed('.typed', {
-      strings: [' ', 'An analysis of Denver Uber 3200+ trips. '],
+      strings: [' ', 'An analysis of 3200+ Denver Uber trips. '],
       startDelay: 1000,
       typeSpeed: 45,
       backSpeed: 20,
