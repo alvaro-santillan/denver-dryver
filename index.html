@@ -6,28 +6,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--  handle keywords and description -->
-    <meta name="description" content="Alvaro Santillan">
-    <meta name="keywords" content="Alvaro Santillan">
+    <meta name="description" content="Denver Driver">
+    <meta name="keywords" content="Denver Driver">
 
-    <title>Álvaro F Santillan</title>
-    <!-- handle missing icon -->
+    <title>Denver Driver</title>
+
     <link rel="shortcut icon" href="img/favicon.ico">
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Raleway:200,300,400,400i,500,600,700" rel="stylesheet">
-    <!-- <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet"> -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
     <!-- responsive.css after style.css because style.css will be modified -->
 
+    <!-- Font Awesome JS -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
     <div class="wrapper">
         <!-- Sidebar  -->
         <nav id="sidebar">
             <div class="sidebar-header">
-                <h3>Denver RideShare Driver</h3>
-                <strong>DRD</strong>
+                <h3>Denver Driver</h3>
+                <strong>DD</strong>
             </div>
 
             <ul class="list-unstyled components">
@@ -88,15 +90,6 @@
                     </a>
                 </li>
             </ul>
-
-            <ul class="list-unstyled CTAs">
-                <li>
-                    <a href="https://bootstrapious.com/tutorial/files/sidebar.zip" class="download">Download source</a>
-                </li>
-                <li>
-                    <a href="https://bootstrapious.com/p/bootstrap-sidebar" class="article">Back to article</a>
-                </li>
-            </ul>
         </nav>
 
         <!-- Page Content  -->
@@ -106,23 +99,23 @@
                 HOME
             =================================================-->
             <section id="home">
-                <!-- required for particles-js -->
-                <div id="particles-js">
-                    <div class="home-body">
-
-                    </div>
-                </div>
+                <div id="particles-js"></div>
             </section>
 
             <section id="home-lower">
                 <!-- required for particles-js -->
                 <div id="particles-js-lower">
                     <div class="home-body-lower">
-                        <h1>Hello</h1>
+                        <h1>Welcome To Denver Driver</h1>
+                        <h3>An analysis of Denver Uber 3200+ trips</h3>
                         <div class="arrow bounce">
-                            <a href="#profile">
+                            <a href="#">
                                 <!-- Arrow down icon svg code -->
-                                <i><svg class="bi bi-chevron-compact-down" width="100%" height="100%" viewBox="0 0 20 20" fill="#052230" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3.553 8.776a.5.5 0 01.67-.223L10 11.44l5.776-2.888a.5.5 0 11.448.894l-6 3a.5.5 0 01-.448 0l-6-3a.5.5 0 01-.223-.67z" clip-rule="evenodd"/></svg></i>
+                                <i><svg class="bi bi-chevron-compact-down" width="100%" height="100%"
+                                        viewBox="0 0 20 20" fill="#052230" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                            d="M3.553 8.776a.5.5 0 01.67-.223L10 11.44l5.776-2.888a.5.5 0 11.448.894l-6 3a.5.5 0 01-.448 0l-6-3a.5.5 0 01-.223-.67z"
+                                            clip-rule="evenodd" /></svg></i>
                             </a>
                         </div>
                     </div>
@@ -130,105 +123,76 @@
             </section>
 
             <!--================================================
-                PROJECTS
+                INTRO
             =================================================-->
-            <section id="projects">
-                <div id="projects-body">
-                    <div id="project-title">
-                        <h3>Projects</h3>
+            <section id="intro">
+                <div id="section-block-body">
+                    <div id="section-title">
+                        <h3>Introduction</h3>
                     </div>
 
-                    <!-- Top 3 current projects -->
-                    <div class="spotlight-projects">
-                        <!-- Project 1 -->
-                        <div id="spotlight-project-1" class="spotlight-project">
-                            <div>
-                                <h4><a href="https://github.com/AFSM1995/atls-4120-mobile-application-development/tree/master/projects/Grade%20Calculator" target="_blank">Weighted Grade Calculator Android App</a></h4>
-                            </div>
-                            <p>Designed, Wire-framed, and Implemented a Java-based Android App. The app is easy to use and simply
-                                designed. The app consists of rows. In each row 3 input boxes store the assignment name, score,
-                                and weight of that specific assignment. Each row has a slider to play with your grade in
-                                real-time and a lock to lock the assignment weight and score. New rows can be added using the
-                                "fab" button (default button on all Android devices). The app displays in real-time the worst
-                                possible grade, best possible grade, and the current grade for the student.</p>
-                            <p class="resources-used">Resources Used: Java, Object-Oriented Programing Concepts, XML, Android Studios, Balsamiq Mockups 3, & GitHub Desktop.</p>
+                    <div id="paragraph-body">
+                        <div>
+                            <h4>Weighted Grade Calculator Android App</h4>
                         </div>
-                        <!-- Project 2 -->
-                        <div id="spotlight-project-2" class="spotlight-project">
-                            <div>
-                                <h4><a href="https://github.com/AFSM1995/python-string-alignment-gui" target="_blank">String Alignment Based Plagiarism Detector</a></h4>
-                            </div>
-                            <p>Implemented a Python script to detect text manipulation using string alignment and dynamic
-                                programming principles. The program consists of three methods. The first method takes as
-                                parameters the strings and operation cost and returns a cost matrix using a dynamic programming
-                                algorithm (n<sup>2</sup> runtime complexity). The second method takes as a parameter the cost matrix and
-                                returns a vector that stores the optimal string edit operations to convert the first string into
-                                the final string (n runtime complexity). The third and final function takes as parameters an
-                                optimal operation vector, the target string, and the desired string length and returns the
-                                unmodified substrings and plagiarism percentage (n runtime complexity). The script has an
-                                accuracy matching and sometimes surpassing those found on online tools.</p>
-                            <p class="resources-used">Resources Used: Python, Dynamic Programming Principles, Matrix Data Structures, Visual Studios Code & GitHub Desktop.</p>
-                        </div>
-                        <!-- Project 3 -->
-                        <div id="spotlight-project-3" class="last-project spotlight-project">
-                            <div>
-                                <h4><a href="https://github.com/AFSM1995/python-snake-gui" target="_blank">GUI Snake Game</a></h4>
-                            </div>
-                            <p>Designed and Implemented a well commented, responsive, and adaptive GUI snake game. There are two
-                                versions of the game one for user enjoyment and a barebone version for simulations and
-                                probability testing. The game features easily manipulable settings for snake length, snake
-                                speed, game colors, game scale, and game size. The game was built with the help of Pygame, an
-                                external Python library used primarily for creating Python-based GUI`s and games.</p>
-                            <p class="resources-used">Resources Used: Python, Pygame, Visual Studios Code & GitHub Desktop.</p>
-                        </div>
+                        <p>Designed, Wire-framed, and Implemented a Java-based Android App. The app is easy to use
+                            and simply
+                            designed. The app consists of rows. In each row 3 input boxes store the assignment name,
+                            score,
+                            and weight of that specific assignment. Each row has a slider to play with your grade in
+                            real-time and a lock to lock the assignment weight and score. New rows can be added
+                            using the
+                            "fab" button (default button on all Android devices). The app displays in real-time the
+                            worst
+                            possible grade, best possible grade, and the current grade for the student.</p>
                     </div>
 
 
                     <div class="section-card">
                         <div class="row">
                             <div class="col-sm-6">
-                              <div class="card shadow mb-4">
-                                <div class="card-header">
-                                    Featured
+                                <div class="card shadow mb-4">
+                                    <div class="card-header">
+                                        Featured
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Special title treatment</h5>
+                                        <div class="">
+                                            <canvas id="myAreaChart" width="400" height="400"></canvas>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div class="card-body">
-                                  <h5 class="card-title">Special title treatment</h5>
-                                  <div class="">
-                                    <canvas id="myAreaChart" width="400" height="400"></canvas>
-                                  </div>
-                                </div>
-                              </div>
                             </div>
                             <div class="col-sm-6">
-                              <div class="card shadow mb-4">
-                                <div class="card-header">
-                                    Featured
-                                </div>
-                                <div class="card-body">
-                                  <!-- <h5 class="card-title">Special title treatment</h5> -->
-                                  <!-- <canvas id="myAreaChart" width="400" height="400"></canvas> -->
-                                  <div class="">
-                                    <canvas id="myPieChart" width="400" height="400"></canvas>
-                                  </div>
+                                <div class="card shadow mb-4">
+                                    <div class="card-header">
+                                        Featured
+                                    </div>
+                                    <div class="card-body">
+                                        <!-- <h5 class="card-title">Special title treatment</h5> -->
+                                        <!-- <canvas id="myAreaChart" width="400" height="400"></canvas> -->
+                                        <div class="">
+                                            <canvas id="myPieChart" width="400" height="400"></canvas>
+                                        </div>
 
-                                  <div class="mt-4 text-center small">
-                                    <span class="mr-2">
-                                      <i class="fas fa-circle text-primary"></i> Direct
-                                    </span>
-                                    <span class="mr-2">
-                                      <i class="fas fa-circle text-success"></i> Social
-                                    </span>
-                                    <span class="mr-2">
-                                      <i class="fas fa-circle text-info"></i> Referral
-                                    </span>
-                                  </div>
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-circle text-primary"></i> Direct
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-circle text-success"></i> Social
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-circle text-info"></i> Referral
+                                            </span>
+                                        </div>
 
+                                    </div>
                                 </div>
-                              </div>
                             </div>
-                          </div>
-                        </div>  
-                          
+                        </div>
+                    </div>
+
                     <!-- Quick icon stats -->
                     <div class="projects">
                         <br>
@@ -315,39 +279,46 @@
                             <div class="card mb-1 form-block">
                                 <div class="row shadow no-gutters">
                                     <div class="col-sm-4 col-md-3 col-lg-4 col-xl-5 shadow">
-                                        <img src="img/contact.jpg" class="card-img-top" alt="Picture of coffee in a cup">
+                                        <img src="img/contact.jpg" class="card-img-top"
+                                            alt="Picture of coffee in a cup">
                                     </div>
                                     <div class="col-sm-8 col-md-9 col-lg-8 col-xl-7">
                                         <div class="card-body">
-                                            <form class="needs-validation" novalidate method="POST" action="./php/form.php">
+                                            <form class="needs-validation" novalidate method="POST"
+                                                action="./php/form.php">
                                                 <!-- required used for floating label effect. -->
                                                 <div class="inputBox form-group first-name-box">
-                                                    <input type="text" required="" name="first-name-input" class="inputBox form-control">
+                                                    <input type="text" required="" name="first-name-input"
+                                                        class="inputBox form-control">
                                                     <label>First Name</label>
                                                     <div class="invalid-tooltip">
                                                         Please provide your first name.
                                                     </div>
                                                 </div>
                                                 <div class="inputBox form-group">
-                                                    <input type="text" required="" name="last-name-input" class="inputBox form-control">
+                                                    <input type="text" required="" name="last-name-input"
+                                                        class="inputBox form-control">
                                                     <label>Last Name</label>
                                                     <div class="invalid-tooltip">
                                                         Please provide your last name.
                                                     </div>
                                                 </div>
                                                 <div class="inputBox form-group">
-                                                    <input type="email" required="" name="email-input" class="inputBox form-control email-box">
+                                                    <input type="email" required="" name="email-input"
+                                                        class="inputBox form-control email-box">
                                                     <label>Email Address</label>
                                                     <div class="invalid-tooltip">
                                                         Please provide a valid email.
                                                     </div>
                                                 </div>
                                                 <p class="contact-text text-center">
-                                                    <small class="text-muted">I respect your privacy. Your email will not be shared.</small>
+                                                    <small class="text-muted">I respect your privacy. Your email will
+                                                        not be shared.</small>
                                                 </p>
                                                 <div class="selector-and-message form-group">
                                                     <label>Subject</label>
-                                                    <select class="form-control" name="subject-input" id="subjectDrop" required>
+                                                    <select class="form-control" name="subject-input" id="subjectDrop"
+                                                        required>
                                                         <option value="" selected>Select an option...</option>
                                                         <option value="">Employment opportunity</option>
                                                         <option>Question</option>
@@ -362,12 +333,15 @@
                                                 </div>
                                                 <div class="selector-and-message form-group">
                                                     <label>Message</label>
-                                                    <textarea class="form-control" name="message-input" rows="3" placeholder="Hello, my name is Fernando, Talent Recruiter at Santillan Mobile, LLC." required></textarea>
+                                                    <textarea class="form-control" name="message-input" rows="3"
+                                                        placeholder="Hello, my name is Fernando, Talent Recruiter at Santillan Mobile, LLC."
+                                                        required></textarea>
                                                     <div class="invalid-tooltip">
                                                         Please provide a message.
                                                     </div>
                                                 </div>
-                                                <button type="submit" id="submit-btn" class="btn btn-block btn-submit">Submit</button>
+                                                <button type="submit" id="submit-btn"
+                                                    class="btn btn-block btn-submit">Submit</button>
                                             </form>
                                         </div>
                                     </div>
@@ -378,20 +352,35 @@
                         <div class="col-md-6 d-flex justify-content-center contact-greeting">
                             <div id="contact-body">
                                 <h4 class="text-center card-title">Thank you for your interest!</h4>
-                                <p class="contact-text card-text">I hope that I impressed you enough to reach out if you're interested in having me join your
-                                    team or company. Feel free to browse my GitHub repositories, view and/or add me on LinkedIn,
-                                    or view my latest resume by clicking the respective icons below. You can also send me a
-                                    message using the contact form on this website. If you do decide to send a message using
+                                <p class="contact-text card-text">I hope that I impressed you enough to reach out if
+                                    you're interested in having me join your
+                                    team or company. Feel free to browse my GitHub repositories, view and/or add me on
+                                    LinkedIn,
+                                    or view my latest resume by clicking the respective icons below. You can also send
+                                    me a
+                                    message using the contact form on this website. If you do decide to send a message
+                                    using
                                     this website, keep an eye out on the email you used.</p>
                                 <hr>
-                                <p class="contact-text text-center card-text">Professional contact forms are high priority and are replied to
-                                    within 24 hours. A confirmation email is sent out shortly after a message is sent.</p>
+                                <p class="contact-text text-center card-text">Professional contact forms are high
+                                    priority and are replied to
+                                    within 24 hours. A confirmation email is sent out shortly after a message is sent.
+                                </p>
                                 <!-- Social icons -->
                                 <div class="text-center container">
                                     <!--https://stackoverflow.com/questions/39441877/font-awesome-icons-have-text-decoration-issues-inside-links-->
-                                    <a href="https://github.com/AFSM1995" target="#"><p class="list-inline-item"><i class="fab fa-github-square fa-3x"></i></p></a>
-                                    <a href="https://www.linkedin.com/in/álvaro-santillan-2b0764173" target="#"><p class="list-inline-item"><i class="fab fa-linkedin fa-3x" aria-hidden="true"></i></p></a>
-                                    <a href="https://drive.google.com/file/d/1aJPGHDLkGpb_V4cX5sUvxJtzaIpoVJAN/view?usp=sharing" target="#"><p class="list-inline-item"><i class="fab fa-google-drive fa-3x" aria-hidden="true"></i></p></a>
+                                    <a href="https://github.com/AFSM1995" target="#">
+                                        <p class="list-inline-item"><i class="fab fa-github-square fa-3x"></i></p>
+                                    </a>
+                                    <a href="https://www.linkedin.com/in/álvaro-santillan-2b0764173" target="#">
+                                        <p class="list-inline-item"><i class="fab fa-linkedin fa-3x"
+                                                aria-hidden="true"></i></p>
+                                    </a>
+                                    <a href="https://drive.google.com/file/d/1aJPGHDLkGpb_V4cX5sUvxJtzaIpoVJAN/view?usp=sharing"
+                                        target="#">
+                                        <p class="list-inline-item"><i class="fab fa-google-drive fa-3x"
+                                                aria-hidden="true"></i></p>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -405,13 +394,14 @@
             =================================================-->
             <footer class="footer-outer-color-block">
                 <div class="footer-inner-color-block shadow"></div>
-                
+
                 <div id="footer">
                     <div class="footer-container container">
                         <div class="row text-center">
                             <!-- Copyright message -->
                             <div class="col-md-12">
-                                <p class="contact-text copyright-text">Made from scratch with <i class="far fa-heart"></i>, Javascript, Bootstrap and a CodePen or
+                                <p class="contact-text copyright-text">Made from scratch with <i
+                                        class="far fa-heart"></i>, Javascript, Bootstrap and a CodePen or
                                     2.<br>Copyright © 2019-2020 Álvaro F Santillan. All rights reserved.</p>
                             </div>
                         </div>
@@ -420,8 +410,11 @@
                     <!-- Back to top button -->
                     <!-- d-none d-sm-block -->
                     <a href="#home" id="back-to-top" class="btn shadow btn-back-to-top" role="button">
-                        <svg class="bi bi-chevron-up" width="20" height="30" viewBox="0 0 20 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                            <path fill-rule="evenodd" d="M9.646 6.646a.5.5 0 01.708 0l6 6a.5.5 0 01-.708.708L10 7.707l-5.646 5.647a.5.5 0 01-.708-.708l6-6z" clip-rule="evenodd" />
+                        <svg class="bi bi-chevron-up" width="20" height="30" viewBox="0 0 20 20" fill="currentColor"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd"
+                                d="M9.646 6.646a.5.5 0 01.708 0l6 6a.5.5 0 01-.708.708L10 7.707l-5.646 5.647a.5.5 0 01-.708-.708l6-6z"
+                                clip-rule="evenodd" />
                         </svg>
                     </a>
                 </div>
@@ -430,17 +423,23 @@
     </div>
 
     <!-- jQuery CDN - Slim version (=without AJAX) -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
     <!-- Popper.JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+        integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+        crossorigin="anonymous"></script>
     <!-- Bootstrap JS -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
-    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+        integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+        crossorigin="anonymous"></script>
+
     <script src="./js/chart.js/Chart.js"></script>
     <script src="./js/chart.js/Chart.bundle.js"></script>
 
     <script src="./js/jquery.easing.min.js"></script>
-    
+
     <!-- Page level custom scripts -->
     <script src="./demo/chart-area-demo.js"></script>
     <script src="./demo/chart-bar-demo.js"></script>

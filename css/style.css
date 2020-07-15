@@ -457,7 +457,7 @@ a.article:hover {
     SKILL & EDUCATION ALL
 =================================================*/
 #profile-body,
-#spotlight-project-1,
+#paragraph-body,
 #spotlight-project-2,
 #spotlight-project-3,
 .project-category,
@@ -466,12 +466,16 @@ a.article:hover {
 #education-body,
 #contact,
 #footer {
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+}
+
+#section-title h3 {
+    padding-left: 7.5%;
 }
 
 #profile-title h3,
-#project-title h3,
+#section-title h3,
 .project-category-title h3,
 #skill-title h3,
 #education-title h3,
