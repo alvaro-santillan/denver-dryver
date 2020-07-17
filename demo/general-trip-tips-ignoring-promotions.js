@@ -3,13 +3,13 @@ Chart.defaults.global.defaultFontFamily = 'Poppins', 'sans-serif';
 Chart.defaults.global.defaultFontColor = '#858796';
 
 // Pie Chart Example
-var ctx = document.getElementById("generalTripTypeCount");
+var ctx = document.getElementById("generalTripIgnoringPromotions");
 var myPieChart = new Chart(ctx, {
-  type: 'bar',
+  type: 'doughnut',
   data: {
-    labels: ["UberX", "Uber Pool", "Express Pool"],
+    labels: ["Tip", "Rest Of Fare"],
     datasets: [{
-      data: [2523, 390, 317],
+      data: [5.64, 94.36],
       backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
       hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",

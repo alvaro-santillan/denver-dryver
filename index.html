@@ -521,6 +521,58 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Row 7 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Tip As A Percent Of Trip Cost (Excluding Passenger Promotions)
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="generalTripIgnoringPromotions" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> Tip
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Fare (Whole Chart)
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Tip As A Percent Of Trip Cost (Including Passenger Promotions)
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="generalTripIncludingPromotions" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> Promotion
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Tip
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Fare (Whole Chart)
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -698,6 +750,8 @@
     <script src="./demo/general-trip-profit-breakdown.js"></script>
     <script src="./demo/general-trip-fair-breakdown.js"></script>
     <script src="./demo/general-tips.js"></script>
+    <script src="./demo/general-trip-tips-ignoring-promotions.js"></script>
+    <script src="./demo/general-trip-tips-including-promotions.js"></script>
 
     <script src="js/jquery/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
