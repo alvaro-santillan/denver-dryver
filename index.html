@@ -408,6 +408,85 @@
                         </div>
                     </div>
 
+                    <!-- Row 5 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Driver Profit Break Down
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="generalTripProfitBreakdown" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> Fair
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Promotion
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Tip
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Share Adjustments
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Tolls
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Driver Fair Break Down
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="generalTripFairBreakdown" height="400"></canvas>
+                                        </div>
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> Cancellation Fees
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Base
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Additional Pickups
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Distance
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Fare Supplement
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Surge
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Long Pickup Distance
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Long Pickup Time
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Trip Time
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Wait Time
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -582,6 +661,8 @@
     <script src="./demo/general-trip-duration.js"></script>
     <script src="./demo/general-trip-takes-excluding-fees.js"></script>
     <script src="./demo/general-trip-takes-including-fees.js"></script>
+    <script src="./demo/general-trip-profit-breakdown.js"></script>
+    <script src="demo/general-trip-fair-breakdown.js"></script>
 
     <script src="js/jquery/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
