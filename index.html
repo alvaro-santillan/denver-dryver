@@ -49,6 +49,9 @@
                             <a href="#">Stats</a>
                         </li>
                         <li>
+                            <a href="#">Tools Used</a>
+                        </li>
+                        <li>
                             <a href="#">Drawbacks</a>
                         </li>
                     </ul>
@@ -123,14 +126,14 @@
                             it. i kept driving in the summer where I discovered that the weekends are a great source of
                             revenue. Realizing this I started driving full time in the summers. I did this for two years
                             in 2018 and 2019. I mostly drove for Uber with Lyft as a sidekick when things got slow. In
-                            total, I drove 3200+ trips with Uber and 300+ with Lyft. I unknowingly created a small data 
+                            total, I drove 3200+ trips with Uber and 300+ with Lyft. I unknowingly created a small data
                             set that was too good to forget, so I didn't. I wrote some web scrapers to
                             collect my driving information and processed the data which can be seen below.</p>
                     </div>
 
                     <div id="paragraph-body">
                         <div>
-                            <h4>Stats for credibility:</h4>
+                            <h4>Stats for credibility</h4>
                         </div>
                         <!-- Quick icon stats -->
                         <div class="stats">
@@ -181,51 +184,100 @@
 
                     <div id="paragraph-body">
                         <div>
-                            <h4>Data Drawbacks:</h4>
+                            <h4>Tools Used</h4>
                         </div>
-                        <p>One of the main drawbacks is that it only my data set. 35-40 hours spread over Friday, Saturday, & Sundays in the
-                            summer months mostly. Thus I am missing the weekdays and 8 non-summer months. Collecting other driver data would
-                            be a great solution to this problem but I would need account access for my web scrapper, and would potentially
-                            compromise their income source. I also don't know that many Uber drivers, so we'll have to settle for my data
-                            set. In a nutshell, I think that this is a great data set, but it's far from big enough to take extremely
-                            seriously. The data is presented as is to the best of my data science/ data mining abilities. All this data is
-                            pre-COVID-19, so things may be different out there.</p>
+                        <p>Uber makes it very hard to collect trip information. Each trip has its own HTML and
+                            statements data ordering is inconsistent across months. Thus the first challenge was data
+                            collection. Test bots were created with Beautiful Soup and Selenium. In the end, I decided
+                            to go mainly with Selenium as the HTML code on Ubers site was too dynamic and sloppy to use.
+                            With Selenium, I was able to collect the vast majority of my trips on the platform. The data
+                            was processed after collection and combined with statements to answer as many questions as
+                            possible. Pandas, Python, Excel, Juypeter Notebooks, & Visual Studios Code were used for
+                            this step, which was the most time-consuming aspect of the project. The final step in the
+                            project is constructing this website which, was wireframed on paper. The website itself was
+                            built from scratch using HTM5, CSS3, jquery, BootStrap 4, PHP, Charts.js, Typed.js, &
+                            Counter.js. It took one month of work to get to this point and not all the questions I
+                            answered with the data set are posted on this website.
+                        </p>
                     </div>
 
+                    <div id="paragraph-body">
+                        <div>
+                            <h4>Data Drawbacks</h4>
+                        </div>
+                        <p>One of the main drawbacks is that it only my data set. 35-40 hours spread over Friday,
+                            Saturday, & Sundays in the
+                            summer months mostly. Thus I am missing the weekdays and 8 non-summer months. Collecting
+                            other driver data would
+                            be a great solution to this problem but I would need account access for my web scrapper, and
+                            would potentially
+                            compromise their income source. I also don't know that many Uber drivers, so we'll have to
+                            settle for my data
+                            set. In a nutshell, I think that this is a great data set, but it's far from big enough to
+                            take extremely
+                            seriously. The data is presented as is to the best of my data science/ data mining
+                            abilities. All this data is
+                            pre-COVID-19, so things may be different out there.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!--================================================
+                GENERAL TRIP
+            =================================================-->
+            <section id="general">
+                <div id="section-block-body">
+                    <div id="section-title">
+                        <h3>General Trips</h3>
+                    </div>
+
+                    <!-- Row 1 -->
                     <div class="section-card">
                         <div class="row">
                             <div class="col-sm-6">
-                                <div class="card shadow mb-4 ">
+                                <div class="card shadow mb-3 ">
                                     <div class="card-header">
-                                        Featured
+                                        Trip Type (in Percents)
                                     </div>
                                     <div class="card-body">
                                         <div class="">
-                                            <canvas id="myAreaChart" width="400" height="400"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-6">
-                                <div class="card shadow mb-4">
-                                    <div class="card-header">
-                                        Featured
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="">
-                                            <canvas id="myPieChart" width="400" height="400"></canvas>
+                                            <canvas id="generalTripTypePercent" height="400"></canvas>
                                         </div>
 
                                         <div class="mt-4 text-center small">
                                             <span class="mr-2">
-                                                <i class="fas fa-circle text-primary"></i> Direct
+                                                <i class="fas fa-square text-primary"></i> UberX
                                             </span>
                                             <span class="mr-2">
-                                                <i class="fas fa-circle text-success"></i> Social
+                                                <i class="fas fa-square text-success"></i> Pool
                                             </span>
                                             <span class="mr-2">
-                                                <i class="fas fa-circle text-info"></i> Referral
+                                                <i class="fas fa-square text-info"></i> Express Pool
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="card shadow mb-3">
+                                    <div class="card-header">
+                                        Trip Type (in trips)
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="generalTripTypeCount" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Express Pool
                                             </span>
                                         </div>
                                     </div>
@@ -233,6 +285,40 @@
                             </div>
                         </div>
                     </div>
+
+                    <!-- Row 2 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Longest, Shortest, & Average Trip (By Miles)
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="generalTripTypeDistance" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> All Trips
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section>
 
@@ -399,12 +485,12 @@
         </div>
     </div>
 
-    <script src="./js/chart.js/Chart.js"></script>
     <script src="./js/chart.js/Chart.bundle.js"></script>
 
-    <script src="./demo/chart-area-demo.js"></script>
-    <script src="./demo/chart-bar-demo.js"></script>
-    <script src="./demo/chart-pie-demo.js"></script>
+    <script src="./demo/general-trip-type-count.js"></script>
+    <script src="./demo/general-trip-type-percent.js"></script>
+    <script src="./demo/general-trip-distance.js"></script>
+    <script src="./demo/general-trip-duration.js"></script>
 
     <script src="js/jquery/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
