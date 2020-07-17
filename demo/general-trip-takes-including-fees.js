@@ -1,20 +1,20 @@
 // Set new default font family and font color to mimic Bootstrap's default styling
-Chart.defaults.global.defaultFontFamily = 'Nunito', '-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif';
+Chart.defaults.global.defaultFontFamily = 'Poppins', 'sans-serif';
 Chart.defaults.global.defaultFontColor = '#858796';
 
 // Pie Chart Example
-var ctx = document.getElementById("myPieChart");
+var ctx = document.getElementById("generalTripTakesIncludingFees");
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Direct", "Referral", "Social"],
+    labels: ["Driver", "Uber Technologies", "Third Party Fees", "Tolls"],
     datasets: [{
-      data: [55, 30, 15],
+      data: [72.26, 26.48, 0.84, 0.41],
       backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
       hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
     }],
-  },
+  }, 
   options: {
     maintainAspectRatio: false,
     tooltips: {
@@ -28,8 +28,9 @@ var myPieChart = new Chart(ctx, {
       caretPadding: 10,
     },
     legend: {
-      display: false
+      display: false,
+      // position: 'bottom'
     },
-    cutoutPercentage: 80,
+    cutoutPercentage: 60,
   },
 });

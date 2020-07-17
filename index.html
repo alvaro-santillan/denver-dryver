@@ -352,6 +352,62 @@
                         </div>
                     </div>
 
+                    <!-- Row 4 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Profits Shares (Excluding 3rd Party Fees)
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="generalTripTakesExcludingFees" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> Driver
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Uber Technologies
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="card shadow mb-3">
+                                    <div class="card-header">
+                                        Profits Shares (Including 3rd Party Fees)
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="generalTripTakesIncludingFees" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> Driver
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Uber Technologies
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Third Party Fees
+
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Tolls
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section>
 
@@ -524,6 +580,8 @@
     <script src="./demo/general-trip-type-percent.js"></script>
     <script src="./demo/general-trip-distance.js"></script>
     <script src="./demo/general-trip-duration.js"></script>
+    <script src="./demo/general-trip-takes-excluding-fees.js"></script>
+    <script src="./demo/general-trip-takes-including-fees.js"></script>
 
     <script src="js/jquery/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
