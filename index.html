@@ -977,6 +977,196 @@
                 </div>
             </section>
 
+            <section id="general">
+                <div id="section-block-body">
+                    <div id="section-title">
+                        <h3>Fees</h3>
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Uber Fee Breakdown (In Percents)
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="feesBookingAndService" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> Service Fee
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Booking Fee
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Third Party Fee Breakdown (In Percents)
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="feesThirdPartyFeeBreakdown" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> Airport Surcharge
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Regional Fee
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 3 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Most, Least, & Average Service Fee
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="feesServiceFee" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> All Trips
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 4 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Most, Least, & Average Booking Fee
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="feesBookingFee" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> All Trips
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 5 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Most, Least, & Average Total Uber Fee
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="feesPaidToUberTotal" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> All Trips
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 6 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Most, Least, & Average Third Party Fee
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="feesPaidToThirdParty" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> All Trips
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
             <!--================================================
                 CONTACT
             =================================================-->
@@ -1166,6 +1356,13 @@
     <script src="./demo/passenger-trip-price.js"></script>
     <script src="./demo/passenger-promotion-amount.js"></script>
     <script src="./demo/passenger-final-price.js"></script>
+
+    <script src="./demo/fees-booking-and-service.js"></script>
+    <script src="./demo/fees-booking-fee.js"></script>
+    <script src="./demo/fees-paid-to-third-party.js"></script>
+    <script src="./demo/fees-paid-to-uber-total.js"></script>
+    <script src="./demo/fees-service-fee.js"></script>
+    <script src="./demo/fees-third-party-fee-breakdown.js"></script>
 
     <script src="js/jquery/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
