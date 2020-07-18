@@ -741,7 +741,8 @@
                     </div>
                 </div>
 
-                <!-- Point stats -->
+                <!-- Excluding point stats -->
+                <h4>Excluding Canceled Trips</h4>
                 <div class="stats">
                     <br>
                     <div class="stats-body">
@@ -766,6 +767,39 @@
                             </div>
                         </div>
                         <br>
+                    </div>
+                </div>
+
+                <!-- Row 1 -->
+                <div class="section-card">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="card shadow mb-3 ">
+                                <div class="card-header">
+                                    Most, Least, & Average Points Earned
+                                </div>
+                                <div class="card-body">
+                                    <div class="">
+                                        <canvas id="pointsPerTrip" height="400"></canvas>
+                                    </div>
+
+                                    <div class="mt-4 text-center small">
+                                        <span class="mr-2">
+                                            <i class="fas fa-square text-primary"></i> All Trips
+                                        </span>
+                                        <span class="mr-2">
+                                            <i class="fas fa-square text-success"></i> UberX
+                                        </span>
+                                        <span class="mr-2">
+                                            <i class="fas fa-square text-info"></i> Pool
+                                        </span>
+                                        <span class="mr-2">
+                                            <i class="fas fa-square text-success"></i> Express Pool
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 
@@ -951,6 +985,8 @@
     <script src="./demo/general-wait-trips.js"></script>
     <script src="./demo/general-long-pickup-distance.js"></script>
     <script src="./demo/general-long-pickup-duration.js"></script>
+
+    <script src="./demo/points-earned-per-trip.js"></script>
 
     <script src="js/jquery/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
