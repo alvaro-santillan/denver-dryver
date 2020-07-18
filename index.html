@@ -978,12 +978,13 @@
             </section>
 
             <section id="general">
+                <!-- Service and booking fees seem off. -->
                 <div id="section-block-body">
                     <div id="section-title">
                         <h3>Fees</h3>
                     </div>
 
-                    <!-- Row 2 -->
+                    <!-- Row 1 -->
                     <div class="section-card">
                         <div class="row">
                             <div class="col-sm-6">
@@ -1032,7 +1033,7 @@
                         </div>
                     </div>
 
-                    <!-- Row 3 -->
+                    <!-- Row 2 -->
                     <div class="section-card">
                         <div class="row">
                             <div class="col-sm-12">
@@ -1065,7 +1066,7 @@
                         </div>
                     </div>
 
-                    <!-- Row 4 -->
+                    <!-- Row 3 -->
                     <div class="section-card">
                         <div class="row">
                             <div class="col-sm-12">
@@ -1098,7 +1099,7 @@
                         </div>
                     </div>
 
-                    <!-- Row 5 -->
+                    <!-- Row 4 -->
                     <div class="section-card">
                         <div class="row">
                             <div class="col-sm-12">
@@ -1109,6 +1110,39 @@
                                     <div class="card-body">
                                         <div class="">
                                             <canvas id="feesPaidToUberTotal" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> All Trips
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 5 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Probability Of A Trip With A Third Party Fee
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="feesProbabilityOfThirdPartyFee" height="400"></canvas>
                                         </div>
 
                                         <div class="mt-4 text-center small">
@@ -1363,6 +1397,7 @@
     <script src="./demo/fees-paid-to-uber-total.js"></script>
     <script src="./demo/fees-service-fee.js"></script>
     <script src="./demo/fees-third-party-fee-breakdown.js"></script>
+    <script src="./demo/fees-probability-of-third-party-fee.js"></script>
 
     <script src="js/jquery/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
