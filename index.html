@@ -237,7 +237,7 @@
                             <div class="col-sm-6">
                                 <div class="card shadow mb-3 ">
                                     <div class="card-header">
-                                        Trip Type (in Percents)
+                                        Trip Type (In Percents)
                                     </div>
                                     <div class="card-body">
                                         <div class="">
@@ -262,7 +262,7 @@
                             <div class="col-sm-6">
                                 <div class="card shadow mb-3">
                                     <div class="card-header">
-                                        Trip Type (in trips)
+                                        Trip Type (In Trips)
                                     </div>
                                     <div class="card-body">
                                         <div class="">
@@ -358,7 +358,7 @@
                             <div class="col-sm-6">
                                 <div class="card shadow mb-3 ">
                                     <div class="card-header">
-                                        Profits Shares (Excluding 3rd Party Fees)
+                                        Profits Shares Excluding 3rd Party Fees (In Percents)
                                     </div>
                                     <div class="card-body">
                                         <div class="">
@@ -380,7 +380,7 @@
                             <div class="col-sm-6">
                                 <div class="card shadow mb-3">
                                     <div class="card-header">
-                                        Profits Shares (Including 3rd Party Fees)
+                                        Profits Shares Including 3rd Party Fees (In Percents)
                                     </div>
                                     <div class="card-body">
                                         <div class="">
@@ -495,7 +495,7 @@
                             <div class="col-sm-12">
                                 <div class="card shadow mb-3 ">
                                     <div class="card-header">
-                                        Probability Of Receiving An App Based Tip (By Trip Type)
+                                        Probability Of Receiving An App Based Tip By Trip Type (In Percents)
                                     </div>
                                     <div class="card-body">
                                         <div class="">
@@ -528,7 +528,7 @@
                             <div class="col-sm-6">
                                 <div class="card shadow mb-3 ">
                                     <div class="card-header">
-                                        Tip As A Percent Of Trip Cost (Excluding Passenger Promotions)
+                                        Tip As A Percent Of Trip Cost Excluding Passenger Promotions (In Percents)
                                     </div>
                                     <div class="card-body">
                                         <div class="">
@@ -550,7 +550,7 @@
                             <div class="col-sm-6">
                                 <div class="card shadow mb-3 ">
                                     <div class="card-header">
-                                        Tip As A Percent Of Trip Cost (Including Passenger Promotions)
+                                        Tip As A Percent Of Trip Cost Including Passenger Promotions (In Percents)
                                     </div>
                                     <div class="card-body">
                                         <div class="">
@@ -566,6 +566,72 @@
                                             </span>
                                             <span class="mr-2">
                                                 <i class="fas fa-square text-success"></i> Fare (Whole Chart)
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 8 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Probability Of Trip Being Surged By Trip Type (In Percents)
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="generalSurgedTrips" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> All Trips
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 9 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Probability Of Waiting On Passenger By Trip Type (In Percents)
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="generalWaitTrips" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> All Trips
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
                                             </span>
                                         </div>
                                     </div>
@@ -752,6 +818,8 @@
     <script src="./demo/general-tips.js"></script>
     <script src="./demo/general-trip-tips-ignoring-promotions.js"></script>
     <script src="./demo/general-trip-tips-including-promotions.js"></script>
+    <script src="./demo/general-surged-trips.js"></script>
+    <script src="./demo/general-wait-trips.js"></script>
 
     <script src="js/jquery/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
