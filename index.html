@@ -1201,6 +1201,174 @@
                 </div>
             </section>
 
+            <section id="general">
+                <!-- Service and booking fees seem off. -->
+                <div id="section-block-body">
+                    <div id="section-title">
+                        <h3>Canceled Trips</h3>
+                    </div>
+
+                    <!-- Row 1 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Probability Of A Profitable Canceled Trip (In Percents)
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="canceledProfitableCanceledTrip" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> All Trips
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 2 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Probability Of A Supplemented Canceled Trip (In Percents)
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="canceledSupplementedCanceledTrip" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> All Trips
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 3 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Probability Of A Share Adjusted Canceled Trip (In Percents)
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="canceledShareAdjustedTrip" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> All Trips
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="general">
+                <!-- Service and booking fees seem off. -->
+                <div id="section-block-body">
+                    <div id="section-title">
+                        <h3>DIA Trips</h3>
+                    </div>
+
+                    <!-- Row 1 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Airport Trips Starting At DIA
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="diaStartingTrips" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> Service Fee
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Booking Fee
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Airport Trips Ending At DIA
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="diaEndingTrips" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> Airport Surcharge
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Regional Fee
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
             <!--================================================
                 CONTACT
             =================================================-->
@@ -1366,6 +1534,7 @@
 
     <script src="./js/chart.js/Chart.bundle.js"></script>
 
+    <!-- General -->
     <script src="./demo/general-trip-type-count.js"></script>
     <script src="./demo/general-trip-type-percent.js"></script>
     <script src="./demo/general-trip-distance.js"></script>
@@ -1382,15 +1551,19 @@
     <script src="./demo/general-long-pickup-distance.js"></script>
     <script src="./demo/general-long-pickup-duration.js"></script>
 
+    <!-- Points -->
     <script src="./demo/points-earned-per-trip.js"></script>
 
+    <!-- Zip Codes -->
     <script src="./demo/zip-top-five-most-popular.js"></script>
     <script src="./demo/zip-all.js"></script>
 
+    <!-- Passenger -->
     <script src="./demo/passenger-trip-price.js"></script>
     <script src="./demo/passenger-promotion-amount.js"></script>
     <script src="./demo/passenger-final-price.js"></script>
 
+    <!-- Fees -->
     <script src="./demo/fees-booking-and-service.js"></script>
     <script src="./demo/fees-booking-fee.js"></script>
     <script src="./demo/fees-paid-to-third-party.js"></script>
@@ -1398,6 +1571,22 @@
     <script src="./demo/fees-service-fee.js"></script>
     <script src="./demo/fees-third-party-fee-breakdown.js"></script>
     <script src="./demo/fees-probability-of-third-party-fee.js"></script>
+
+    <!-- Canceled Trips -->
+    <script src="./demo/canceled-profitable-canceled-trip.js"></script>
+    <script src="./demo/canceled-supplemented-canceled-trip.js"></script>
+    <script src="./demo/canceled-share-adjusted-canceled-trip.js"></script>
+
+    <!-- DIA General -->
+    <script src="./demo/dia-starting-trips.js"></script>
+    <script src="./demo/dia-ending-trips.js"></script>
+
+    <!-- DIA Tips -->
+
+    <!-- Fair Breakdown -->
+
+    <!-- Canceled Trips -->
+
 
     <script src="js/jquery/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
