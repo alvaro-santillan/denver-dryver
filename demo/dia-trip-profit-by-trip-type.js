@@ -2,7 +2,7 @@
 Chart.defaults.global.defaultFontFamily = 'Poppins', 'sans-serif';
 Chart.defaults.global.defaultFontColor = '#858796';
 
-var ctx = document.getElementById("diaTripProfitGeneral");
+var ctx = document.getElementById("diaTripProfitByTripType");
 var myPieChart = new Chart(ctx, {
   type: 'bar',
   data: {

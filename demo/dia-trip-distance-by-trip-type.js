@@ -2,47 +2,43 @@
 Chart.defaults.global.defaultFontFamily = 'Poppins', 'sans-serif';
 Chart.defaults.global.defaultFontColor = '#858796';
 
-var ctx = document.getElementById("diaTripProfitByType");
+var ctx = document.getElementById("diaTripDistanceByTripType");
 var myPieChart = new Chart(ctx, {
   type: 'bar',
   data: {
     // labels: ["Max Service Fee", "Min Service Fee"],
       datasets: [{
-        label: 'UberX Starting At DIA',
+        label: 'UberX',
         backgroundColor: '#1cc88a',
         hoverBackgroundColor: '#1cc88a',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
-        data: [32.71]
+        data: [30.27]
       }, {
-        label: 'UberX Ending At DIA',
-        backgroundColor: '#1cc88a',
+        label: 'Pool',
+        backgroundColor: '#36b9cc',
         hoverBackgroundColor: '#2c9faf',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
-        data: [27.74]
+        data: [22.78]
       }, {
-        label: 'Pool Starting At DIA',
-        backgroundColor: '#36b9cc',
-        hoverBackgroundColor: '#1cc88a',
-        hoverBorderColor: "rgba(234, 236, 244, 1)",
-        data: [18.04]
-      }, {
-        label: ['Pool Ending At DIA'],
-        backgroundColor: '#36b9cc',
-        hoverBackgroundColor: '#1cc88a',
-        hoverBorderColor: "rgba(234, 236, 244, 1)",
-        data: [26.56]
-      }, {
-        label: 'Express Starting At DIA',
+        label: 'Express Pool',
         backgroundColor: '#1cc88a',
         hoverBackgroundColor: '#1cc88a',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
+        data: [18.90]
+      }, {
         data: [0]
       }, {
-        label: ['Express Ending At DIA'],
+        label: ['Shortest'],
         backgroundColor: '#1cc88a',
         hoverBackgroundColor: '#1cc88a',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
-        data: [18.9]
+        data: [7.19]
+      }, {
+        label: ['Longest'],
+        backgroundColor: '#1cc88a',
+        hoverBackgroundColor: '#1cc88a',
+        hoverBorderColor: "rgba(234, 236, 244, 1)",
+        data: [95.52]
       }]
   }, 
   options: {
@@ -62,23 +58,12 @@ var myPieChart = new Chart(ctx, {
         type: 'line',
         mode: 'horizontal',
         scaleID: 'y-axis-0',
-        value: 31.80,
+        value: 29.14,
         borderColor: 'rgb(0, 0, 0)',
         borderWidth: 3,
         label: {
           enabled: true,
-          content: 'Average Starting $31.80'
-        }
-      }, {
-        type: 'line',
-        mode: 'horizontal',
-        scaleID: 'y-axis-0',
-        value: 27.02,
-        borderColor: 'rgb(0, 0, 0)',
-        borderWidth: 3,
-        label: {
-          enabled: true,
-          content: 'Average Ending $27.02'
+          content: 'Average 29.14 Miles'
         }
       }]
     },

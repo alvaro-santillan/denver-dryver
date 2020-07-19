@@ -1410,7 +1410,7 @@
                                     </div>
                                     <div class="card-body">
                                         <div class="">
-                                            <canvas id="diaTripProfitGeneral" height="400"></canvas>
+                                            <canvas id="diaTripProfitByTripType" height="400"></canvas>
                                         </div>
 
                                         <div class="mt-4 text-center small">
@@ -1438,11 +1438,69 @@
                             <div class="col-sm-12">
                                 <div class="card shadow mb-3 ">
                                     <div class="card-header">
-                                        DIA Trip Profit Averages By Starting Location.
+                                        DIA Trip Profit Averages By Starting Location
                                     </div>
                                     <div class="card-body">
                                         <div class="">
-                                            <canvas id="diaTripProfitByType" height="400"></canvas>
+                                            <canvas id="diaTripProfitByTripStart" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Row 4 -->
+                            <div class="col-sm-12">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        DIA Trip Distance Averages By Trip Type
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="diaTripDistanceByTripType" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Worst
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Best
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Row 5 -->
+                            <div class="col-sm-12">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        DIA Trip Profit Averages By Starting Location
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="diaTripDistanceByTripStart" height="400"></canvas>
                                         </div>
 
                                         <div class="mt-4 text-center small">
@@ -1678,8 +1736,10 @@
     <script src="./demo/dia-trip-type.js"></script>
     <script src="./demo/dia-starting-trips.js"></script>
     <script src="./demo/dia-ending-trips.js"></script>
-    <script src="./demo/dia-trip-profit-by-type.js"></script>
-    <script src="./demo/dia-trip-profit-general.js"></script>
+    <script src="./demo/dia-trip-profit-by-trip-type.js"></script>
+    <script src="./demo/dia-trip-profit-by-trip-start.js"></script>
+    <script src="./demo/dia-trip-distance-by-trip-type.js"></script>
+    <script src="./demo/dia-trip-distance-by-trip-start.js"></script>
 
     <!-- DIA Tips -->
 
