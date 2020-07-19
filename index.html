@@ -1320,7 +1320,32 @@
                     <!-- Row 1 -->
                     <div class="section-card">
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-sm-4">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Airport Trip Type
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="diaTripType" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
                                 <div class="card shadow mb-3 ">
                                     <div class="card-header">
                                         Airport Trips Starting At DIA
@@ -1332,17 +1357,23 @@
 
                                         <div class="mt-4 text-center small">
                                             <span class="mr-2">
-                                                <i class="fas fa-square text-primary"></i> Service Fee
+                                                <i class="fas fa-square text-primary"></i> All Trips
                                             </span>
                                             <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Booking Fee
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
                                             </span>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <div class="col-sm-6">
+                            <div class="col-sm-4">
                                 <div class="card shadow mb-3 ">
                                     <div class="card-header">
                                         Airport Trips Ending At DIA
@@ -1354,10 +1385,16 @@
 
                                         <div class="mt-4 text-center small">
                                             <span class="mr-2">
-                                                <i class="fas fa-square text-primary"></i> Airport Surcharge
+                                                <i class="fas fa-square text-primary"></i> All Trips
                                             </span>
                                             <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Regional Fee
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
                                             </span>
                                         </div>
                                     </div>
@@ -1365,7 +1402,6 @@
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </section>
 
@@ -1578,6 +1614,7 @@
     <script src="./demo/canceled-share-adjusted-canceled-trip.js"></script>
 
     <!-- DIA General -->
+    <script src="./demo/dia-trip-type.js"></script>
     <script src="./demo/dia-starting-trips.js"></script>
     <script src="./demo/dia-ending-trips.js"></script>
 
