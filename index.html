@@ -1307,12 +1307,79 @@
                         </div>
                     </div>
 
+                    <!-- Row 2 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Probability Of A Supplemented Canceled Trip (In Percents)
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="canceledSupplementedCanceledTrip" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> All Trips
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Row 3 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Probability Of A Share Adjusted Canceled Trip (In Percents)
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="canceledShareAdjustedTrip" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> All Trips
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </section>
 
             <section id="dia">
                 <!-- Service and booking fees seem off. -->
                 <!-- Number of dia trips seems off. -->
+                <!-- Error dia average starting distance -->
                 <div id="section-block-body">
                     <div id="section-title">
                         <h3>DIA Trips</h3>
@@ -1496,11 +1563,69 @@
                             <div class="col-sm-12">
                                 <div class="card shadow mb-3 ">
                                     <div class="card-header">
-                                        DIA Trip Profit Averages By Starting Location
+                                        DIA Trip Distance Averages By Starting Location
                                     </div>
                                     <div class="card-body">
                                         <div class="">
                                             <canvas id="diaTripDistanceByTripStart" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Row 6 -->
+                            <div class="col-sm-12">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        DIA Trip Duration Averages By Trip Type
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="diaTripDurationByTripType" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Worst
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Best
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Row 7 -->
+                            <div class="col-sm-12">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        DIA Trip Duration Averages By Starting Location
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="diaTripDurationByTripStart" height="400"></canvas>
                                         </div>
 
                                         <div class="mt-4 text-center small">
@@ -1740,6 +1865,8 @@
     <script src="./demo/dia-trip-profit-by-trip-start.js"></script>
     <script src="./demo/dia-trip-distance-by-trip-type.js"></script>
     <script src="./demo/dia-trip-distance-by-trip-start.js"></script>
+    <script src="./demo/dia-trip-duration-by-trip-type.js"></script>
+    <script src="./demo/dia-trip-duration-by-trip-start.js"></script>
 
     <!-- DIA Tips -->
 
