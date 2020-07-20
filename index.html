@@ -1814,10 +1814,49 @@
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
+            </section>
 
+            <section id="diaCanceled">
+                <div id="section-block-body">
+                    <div id="section-title">
+                        <h3>Canceled DIA Trips</h3>
+                    </div>
+
+                    <!-- Row 1 -->
+                    <div class="section-card">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="card shadow mb-3 ">
+                                    <div class="card-header">
+                                        Probability Of A Profitable Canceled DIA Trip (In Percents)
+                                    </div>
+                                    <div class="card-body">
+                                        <div class="">
+                                            <canvas id="diaProfitableCanceledTrip" height="400"></canvas>
+                                        </div>
+
+                                        <div class="mt-4 text-center small">
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-primary"></i> All Trips
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> UberX
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-info"></i> Pool
+                                            </span>
+                                            <span class="mr-2">
+                                                <i class="fas fa-square text-success"></i> Express Pool
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!--================================================
@@ -2052,8 +2091,8 @@
     <script src="./demo/dia-pool-trip-fair-breakdown.js"></script>
     <script src="./demo/dia-express-trip-fair-breakdown.js"></script>
 
-    <!-- Canceled Trips -->
-
+    <!-- Canceled DIA Trips -->
+    <script src="./demo/dia-profitable-canceled-trip.js"></script>
 
     <script src="js/jquery/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
