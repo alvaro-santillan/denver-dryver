@@ -1721,6 +1721,103 @@
                         <h3>DIA Fair Breakdown</h3>
                     </div>
                 </div>
+
+                <div class="section-card">
+                    <div class="row">
+
+                        <!-- Row 1 -->
+                        <div class="col-sm-6">
+                            <div class="card shadow mb-3 ">
+                                <div class="card-header">
+                                    Trip Breakdown (All DIA Trips)
+                                </div>
+                                <div class="card-body">
+                                    <div class="">
+                                        <canvas id="diaAllTripFairBreakdown" height="400"></canvas>
+                                    </div>
+
+                                    <div class="mt-4 text-center small">
+                                        <span class="mr-2">
+                                            <i class="fas fa-square text-success"></i> Tipped
+                                        </span>
+                                        <span class="mr-2">
+                                            <i class="fas fa-square text-info"></i> No Tip
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="card shadow mb-3 ">
+                                <div class="card-header">
+                                    Trip Breakdown (UberX DIA Trips)
+                                </div>
+                                <div class="card-body">
+                                    <div class="">
+                                        <canvas id="diaUberXTripFairBreakdown" height="400"></canvas>
+                                    </div>
+
+                                    <div class="mt-4 text-center small">
+                                        <span class="mr-2">
+                                            <i class="fas fa-square text-success"></i> Tipped
+                                        </span>
+                                        <span class="mr-2">
+                                            <i class="fas fa-square text-info"></i> No Tip
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Row 2 -->
+                        <div class="col-sm-6">
+                            <div class="card shadow mb-3 ">
+                                <div class="card-header">
+                                    Trip Breakdown (Pool DIA Trips)
+                                </div>
+                                <div class="card-body">
+                                    <div class="">
+                                        <canvas id="diaPoolTripFairBreakdown" height="400"></canvas>
+                                    </div>
+
+                                    <div class="mt-4 text-center small">
+                                        <span class="mr-2">
+                                            <i class="fas fa-square text-success"></i> Tipped
+                                        </span>
+                                        <span class="mr-2">
+                                            <i class="fas fa-square text-info"></i> No Tip
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <div class="card shadow mb-3 ">
+                                <div class="card-header">
+                                    Trip Breakdown (Express DIA Trips)
+                                </div>
+                                <div class="card-body">
+                                    <div class="">
+                                        <canvas id="diaExpressTripFairBreakdown" height="400"></canvas>
+                                    </div>
+
+                                    <div class="mt-4 text-center small">
+                                        <span class="mr-2">
+                                            <i class="fas fa-square text-success"></i> Tipped
+                                        </span>
+                                        <span class="mr-2">
+                                            <i class="fas fa-square text-info"></i> No Tip
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
             </section>
 
             <!--================================================
@@ -1950,6 +2047,10 @@
     <script src="./demo/dia-tips-ending-at-dia.js"></script>
     
     <!-- Fair Breakdown -->
+    <script src="./demo/dia-all-trip-fair-breakdown.js"></script>
+    <script src="./demo/dia-uberx-trip-fair-breakdown.js"></script>
+    <script src="./demo/dia-pool-trip-fair-breakdown.js"></script>
+    <script src="./demo/dia-express-trip-fair-breakdown.js"></script>
 
     <!-- Canceled Trips -->
 
