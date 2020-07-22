@@ -231,487 +231,496 @@
                         <h3>General Trips</h3>
                     </div>
 
-                    <!-- Row 1 -->
-                    <div id="paragraph-body">
-                        <div>
-                            <h4>Trip Types</h4>
-                            <br>
+                    <section id="trip-types">
+                        <div id="paragraph-body">
+                            <div>
+                                <h4>Trip Types</h4>
+                                <br>
+                            </div>
                         </div>
-                    </div>
-                    <div class="section-card">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="card shadow mb-3 ">
-                                    <div class="card-header">
-                                        Trip Type (In Percents)
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="">
-                                            <canvas id="generalTripTypePercent" height="400"></canvas>
+                        <div class="section-card">
+                            <!-- Row 1 -->
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Trip Type (In Percents)
                                         </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="generalTripTypePercent" height="400"></canvas>
+                                            </div>
 
-                                        <div class="mt-4 text-center small">
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-primary"></i> UberX
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Pool
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-info"></i> Express Pool
-                                            </span>
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Express Pool
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="col-sm-6">
-                                <div class="card shadow mb-3">
-                                    <div class="card-header">
-                                        Trip Type (In Trips)
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="">
-                                            <canvas id="generalTripTypeCount" height="400"></canvas>
+                                <div class="col-sm-6">
+                                    <div class="card shadow mb-3">
+                                        <div class="card-header">
+                                            Trip Type (In Trips)
                                         </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="generalTripTypeCount" height="400"></canvas>
+                                            </div>
 
-                                        <div class="mt-4 text-center small">
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-primary"></i> UberX
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Pool
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-info"></i> Express Pool
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Row 2 -->
-                    <div id="paragraph-body">
-                        <div>
-                            <br>
-                            <h4>Profits</h4>
-                            <br>
-                        </div>
-                    </div>
-                    <div class="section-card">
-                        <div class="row">
-                            <div class="col-sm-4">
-                                <div class="card shadow mb-3 ">
-                                    <div class="card-header">
-                                        Profits Shares Excluding 3rd Party Fees (In Percents)
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="">
-                                            <canvas id="generalTripTakesExcludingFees" height="400"></canvas>
-                                        </div>
-
-                                        <div class="mt-4 text-center small">
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-primary"></i> Driver
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Uber Technologies
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-4">
-                                <div class="card shadow mb-3">
-                                    <div class="card-header">
-                                        Profits Shares Including 3rd Party Fees (In Percents)
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="">
-                                            <canvas id="generalTripTakesIncludingFees" height="400"></canvas>
-                                        </div>
-
-                                        <div class="mt-4 text-center small">
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-primary"></i> Driver
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Uber Technologies
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Third Party Fees
-
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Tolls
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="col-sm-4">
-                                <div class="card shadow mb-3 ">
-                                    <div class="card-header">
-                                        Driver Profit Break Down
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="">
-                                            <canvas id="generalTripProfitBreakdown" height="400"></canvas>
-                                        </div>
-
-                                        <div class="mt-4 text-center small">
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-primary"></i> Fair
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Promotion
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Tip
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Share Adjustments
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Tolls
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <!-- Row 3 -->
-                    <div id="paragraph-body">
-                        <div>
-                            <br>
-                            <h4>Tips</h4>
-                            <br>
-                        </div>
-                    </div>
-                    <div class="section-card">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="card shadow mb-3 ">
-                                    <div class="card-header">
-                                        Probability Of Receiving An App Based Tip By Trip Type (In Percents)
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="">
-                                            <canvas id="generalTips" height="400"></canvas>
-                                        </div>
-
-                                        <div class="mt-4 text-center small">
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-primary"></i> All Trips
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> UberX
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-info"></i> Pool
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Express Pool
-                                            </span>
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Express Pool
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
-                    <!-- Row 4 -->
-                    <div class="section-card">
-                        <div class="row">
-                            <div class="col-sm-6">
-                                <div class="card shadow mb-3 ">
-                                    <div class="card-header">
-                                        Tip As A Percent Of Trip Cost Excluding Passenger Promotions (In Percents)
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="">
-                                            <canvas id="generalTripIgnoringPromotions" height="400"></canvas>
+                    <section id="profits">
+                        <div id="paragraph-body">
+                            <div>
+                                <br>
+                                <h4>Profits</h4>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="section-card">
+                            <!-- Row 1 -->
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Profits Shares Excluding 3rd Party Fees (In Percents)
                                         </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="generalTripTakesExcludingFees" height="400"></canvas>
+                                            </div>
 
-                                        <div class="mt-4 text-center small">
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-primary"></i> Tip
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Fare (Whole Chart)
-                                            </span>
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> Driver
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Uber Technologies
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="col-sm-6">
-                                <div class="card shadow mb-3 ">
-                                    <div class="card-header">
-                                        Tip As A Percent Of Trip Cost Including Passenger Promotions (In Percents)
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="">
-                                            <canvas id="generalTripIncludingPromotions" height="400"></canvas>
+                                <div class="col-sm-4">
+                                    <div class="card shadow mb-3">
+                                        <div class="card-header">
+                                            Profits Shares Including 3rd Party Fees (In Percents)
                                         </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="generalTripTakesIncludingFees" height="400"></canvas>
+                                            </div>
 
-                                        <div class="mt-4 text-center small">
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-primary"></i> Promotion
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Tip
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Fare (Whole Chart)
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> Driver
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Uber Technologies
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Third Party Fees
 
-                    <!-- Row 5 -->
-                    <div id="paragraph-body">
-                        <div>
-                            <br>
-                            <h4>Distance</h4>
-                            <br>
-                        </div>
-                    </div>
-                    <div class="section-card">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="card shadow mb-3 ">
-                                    <div class="card-header">
-                                        Longest, Shortest, & Average Trip By Distance (Miles)
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="">
-                                            <canvas id="generalTripTypeDistance" height="400"></canvas>
-                                        </div>
-
-                                        <div class="mt-4 text-center small">
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-primary"></i> All Trips
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> UberX
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-info"></i> Pool
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Express Pool
-                                            </span>
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Tolls
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <!-- Row 6 -->
-                    <div id="paragraph-body">
-                        <div>
-                            <br>
-                            <h4>Duration</h4>
-                            <br>
-                        </div>
-                    </div>
-                    <div class="section-card">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="card shadow mb-3 ">
-                                    <div class="card-header">
-                                        Longest, Shortest, & Average Trip By Duration (Min)
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="">
-                                            <canvas id="generalTripTypeDuration" height="400"></canvas>
+                                <div class="col-sm-4">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Driver Profit Break Down
                                         </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="generalTripProfitBreakdown" height="400"></canvas>
+                                            </div>
 
-                                        <div class="mt-4 text-center small">
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-primary"></i> All Trips
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> UberX
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-info"></i> Pool
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Express Pool
-                                            </span>
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> Fair
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Promotion
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Tip
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Share Adjustments
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Tolls
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
-                    <!-- Row 7 -->
-                    <div id="paragraph-body">
-                        <div>
-                            <br>
-                            <h4>Surged Trips</h4>
-                            <br>
+                    <section id="tips">
+                        <div id="paragraph-body">
+                            <div>
+                                <br>
+                                <h4>Tips</h4>
+                                <br>
+                            </div>
                         </div>
-                    </div>
-                    <div class="section-card">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="card shadow mb-3 ">
-                                    <div class="card-header">
-                                        Probability Of Trip Being Surged By Trip Type (In Percents)
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="">
-                                            <canvas id="generalSurgedTrips" height="400"></canvas>
+                        <div class="section-card">
+                            <!-- Row 1 -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Probability Of Receiving An App Based Tip By Trip Type (In Percents)
                                         </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="generalTips" height="400"></canvas>
+                                            </div>
 
-                                        <div class="mt-4 text-center small">
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-primary"></i> All Trips
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> UberX
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-info"></i> Pool
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Express Pool
-                                            </span>
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Row 2 -->
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Tip As A Percent Of Trip Cost Excluding Passenger Promotions (In Percents)
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="generalTripIgnoringPromotions" height="400"></canvas>
+                                            </div>
+
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> Tip
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Fare (Whole Chart)
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Tip As A Percent Of Trip Cost Including Passenger Promotions (In Percents)
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="generalTripIncludingPromotions" height="400"></canvas>
+                                            </div>
+
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> Promotion
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Tip
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Fare (Whole Chart)
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                    </section>
+
+                    <section id="distance">
+                        <div id="paragraph-body">
+                            <div>
+                                <br>
+                                <h4>Distance</h4>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="section-card">
+                            <!-- Row 1 -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Longest, Shortest, & Average Trip By Distance (Miles)
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="generalTripTypeDistance" height="400"></canvas>
+                                            </div>
+
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
-                    <!-- Row 8 -->
-                    <div id="paragraph-body">
-                        <div>
-                            <br>
-                            <h4>Waiting</h4>
-                            <br>
+                    <section id="duration">
+                        <div id="paragraph-body">
+                            <div>
+                                <br>
+                                <h4>Duration</h4>
+                                <br>
+                            </div>
                         </div>
-                    </div>
-                    <div class="section-card">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="card shadow mb-3 ">
-                                    <div class="card-header">
-                                        Probability Of Waiting On Passenger By Trip Type (In Percents)
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="">
-                                            <canvas id="generalWaitTrips" height="400"></canvas>
+                        <div class="section-card">
+                            <!-- Row 1 -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Longest, Shortest, & Average Trip By Duration (Min)
                                         </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="generalTripTypeDuration" height="400"></canvas>
+                                            </div>
 
-                                        <div class="mt-4 text-center small">
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-primary"></i> All Trips
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> UberX
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-info"></i> Pool
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Express Pool
-                                            </span>
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
-                    <!-- Row 10 -->
-                    <div id="paragraph-body">
-                        <div>
-                            <br>
-                            <h4>Long Pickups</h4>
-                            <br>
+                    <section id="surged-trips">
+                        <div id="paragraph-body">
+                            <div>
+                                <br>
+                                <h4>Surged Trips</h4>
+                                <br>
+                            </div>
                         </div>
-                    </div>
-                    <div class="section-card">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="card shadow mb-3 ">
-                                    <div class="card-header">
-                                        Longest, Shortest, & Average Long Pickup By Distance (Miles)
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="">
-                                            <canvas id="generalLongTripTypeDistance" height="400"></canvas>
+                        <div class="section-card">
+                            <!-- Row 1 -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Probability Of Trip Being Surged By Trip Type (In Percents)
                                         </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="generalSurgedTrips" height="400"></canvas>
+                                            </div>
 
-                                        <div class="mt-4 text-center small">
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-primary"></i> All Trips
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> UberX
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-info"></i> Pool
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Express Pool
-                                            </span>
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </section>
 
-                    <!-- Row 11 -->
-                    <div class="section-card">
-                        <div class="row">
-                            <div class="col-sm-12">
-                                <div class="card shadow mb-3 ">
-                                    <div class="card-header">
-                                        Longest, Shortest, & Average Long Pickup By Duration (Min)
-                                    </div>
-                                    <div class="card-body">
-                                        <div class="">
-                                            <canvas id="generalLongTripTypeDuration" height="400"></canvas>
+                    <section id="waiting">
+                        <div id="paragraph-body">
+                            <div>
+                                <br>
+                                <h4>Waiting</h4>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="section-card">
+                            <!-- Row 1 -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Probability Of Waiting On Passenger By Trip Type (In Percents)
                                         </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="generalWaitTrips" height="400"></canvas>
+                                            </div>
 
-                                        <div class="mt-4 text-center small">
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-primary"></i> All Trips
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> UberX
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-info"></i> Pool
-                                            </span>
-                                            <span class="mr-2">
-                                                <i class="fas fa-square text-success"></i> Express Pool
-                                            </span>
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    
+                    </section>
+
+                    <section id="long-pickups">
+                        <div id="paragraph-body">
+                            <div>
+                                <br>
+                                <h4>Long Pickups</h4>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="section-card">
+                            <!-- Row 1 -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Longest, Shortest, & Average Long Pickup By Distance (Miles)
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="generalLongTripTypeDistance" height="400"></canvas>
+                                            </div>
+
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Row 2 -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Longest, Shortest, & Average Long Pickup By Duration (Min)
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="generalLongTripTypeDuration" height="400"></canvas>
+                                            </div>
+
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </section>
 
@@ -721,7 +730,7 @@
                     <div>
                         <br>
                         <h4>Points</h4>
-                        <p>Most of this point averages were calculated excluding canceled trips. 
+                        <p>Most of this point averages were calculated excluding canceled trips.
                             This is because canceled trips do generate points for the driver.
                             Calculations that include canceled trips are marked.</p>
                     </div>
@@ -1573,7 +1582,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
@@ -2083,7 +2092,7 @@
     <script src="./demo/dia-tips-all-trips.js"></script>
     <script src="./demo/dia-tips-starting-at-dia.js"></script>
     <script src="./demo/dia-tips-ending-at-dia.js"></script>
-    
+
     <!-- Fair Breakdown -->
     <script src="./demo/dia-all-trip-fair-breakdown.js"></script>
     <script src="./demo/dia-uberx-trip-fair-breakdown.js"></script>
