@@ -10,8 +10,8 @@ var myPieChart = new Chart(ctx, {
     labels: ["UberX", "Uber Pool", "Express Pool"],
     datasets: [{
       data: [2523, 390, 317],
-      backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
-      hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
+      backgroundColor: ['#032A66', '#BD1134', '#FED530'],
+      hoverBackgroundColor: ['#00114D', '#A4001B', '#E5BC17'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
     }],
   }, 

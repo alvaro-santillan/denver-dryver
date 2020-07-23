@@ -9,14 +9,14 @@ var myPieChart = new Chart(ctx, {
     labels: ["All Trips"],
     datasets: [{
       label: "Profitable Canceled Trip",
-      backgroundColor: "rgba(154,178,96,0.5)",
-      hoverBackgroundColor: "rgba(154,178,96,1)",
+      backgroundColor: "rgba(3, 42, 102, 1)",
+      hoverBackgroundColor: "#00114D",
       hoverBorderColor: "rgba(234, 236, 244, 1)",
       data: [4.29],
     }, {
       label: "Non-Profitable Canceled Trip",
-      backgroundColor: "rgba(197,213,167,0.5)",
-      hoverBackgroundColor: "rgba(197,213,167,1)",
+      backgroundColor: "rgba(3, 42, 102, 0.2)",
+      hoverBackgroundColor: "rgba(3, 42, 102, 0.3)",
       hoverBorderColor: "rgba(234, 236, 244, 1)",
       data: [95.71]
     }]
