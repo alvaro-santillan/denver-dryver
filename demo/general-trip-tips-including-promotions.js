@@ -7,11 +7,11 @@ var ctx = document.getElementById("generalTripIncludingPromotions");
 var myPieChart = new Chart(ctx, {
   type: 'doughnut',
   data: {
-    labels: ["Promotion", "Tip", "Rest Of Fare"],
+    labels: ["Rest Of Fare", "Tip", "Promotion"],
     datasets: [{
-      data: [4.32, 5.4, 90.28],
-      backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
-      hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
+      data: [90.28, 5.4, 4.32],
+      backgroundColor: ['#032A66', '#BD1134', '#FED530'],
+      hoverBackgroundColor: ['#00114D', '#A4001B', '#E5BC17'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
     }],
   }, 
