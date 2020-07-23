@@ -9,26 +9,26 @@ var myPieChart = new Chart(ctx, {
     labels: ["Max Booking Fee", "Min Booking Fee", "Average Booking Fee"],
       datasets: [{
         label: 'All',
-        backgroundColor: '#4e73df',
-        hoverBackgroundColor: '#2e59d9',
+        backgroundColor: '#1A1A1A',
+        hoverBackgroundColor: '#000000',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [3.15, 2.45, 2.73]
       }, {
         label: 'UberX',
-        backgroundColor: '#1cc88a',
-        hoverBackgroundColor: '#1cc88a',
+        backgroundColor: '#032A66',
+        hoverBackgroundColor: '#00114D',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [3.15, 2.45, 2.74]
       }, {
         label: 'Pool',
-        backgroundColor: '#36b9cc',
-        hoverBackgroundColor: '#2c9faf',
+        backgroundColor: '#BD1134',
+        hoverBackgroundColor: '#BD1134',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [2.95, 2.45, 2.59]
       }, {
         label: 'Express Pool',
-        backgroundColor: '#1cc88a',
-        hoverBackgroundColor: '#1cc88a',
+        backgroundColor: '#FED530',
+        hoverBackgroundColor: '#E5BC17',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [2.95, 2.65, 2.78]
       }]
