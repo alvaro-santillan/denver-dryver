@@ -9,8 +9,8 @@ var myPieChart = new Chart(ctx, {
     labels: ["80202 (DownTown Denver)", "80205 (Denver)", "80211 (Denver)", "80203 (DownTown Denver)", "80204 (DownTown Denver)"],
       datasets: [{
         label: 'Trips',
-        backgroundColor: '#4e73df',
-        hoverBackgroundColor: '#2e59d9',
+        backgroundColor: '#BD1134',
+        hoverBackgroundColor: '#A4001B',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [687, 508, 394, 297, 243]
       }]

@@ -9,26 +9,26 @@ var myPieChart = new Chart(ctx, {
     labels: ["Max 3rd Party Fee", "Min 3rd Party Fee", "Average 3rd Party Fee"],
       datasets: [{
         label: 'All',
-        backgroundColor: '#4e73df',
-        hoverBackgroundColor: '#2e59d9',
+        backgroundColor: '#1A1A1A',
+        hoverBackgroundColor: '#000000',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [2.6, 0.5, 2.53]
       }, {
         label: 'UberX',
-        backgroundColor: '#1cc88a',
-        hoverBackgroundColor: '#1cc88a',
+        backgroundColor: '#032A66',
+        hoverBackgroundColor: '#00114D',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [2.6, 0.5, 2.52]
       }, {
         label: 'Pool',
-        backgroundColor: '#36b9cc',
-        hoverBackgroundColor: '#2c9faf',
+        backgroundColor: '#BD1134',
+        hoverBackgroundColor: '#A4001B',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [2.6, 2.6, 2.6]
       }, {
         label: 'Express Pool',
-        backgroundColor: '#1cc88a',
-        hoverBackgroundColor: '#1cc88a',
+        backgroundColor: '#FED530',
+        hoverBackgroundColor: '#E5BC17',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [2.6, 2.6, 2.6]
       }]

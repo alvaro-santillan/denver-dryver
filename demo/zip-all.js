@@ -128,8 +128,8 @@ var myPieChart = new Chart(ctx, {
       80909],
       datasets: [{
         label: 'Trips',
-        backgroundColor: '#4e73df',
-        hoverBackgroundColor: '#2e59d9',
+        backgroundColor: '#BD1134',
+        hoverBackgroundColor: '#A4001B',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [687,
           508,
