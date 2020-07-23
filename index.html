@@ -688,7 +688,7 @@
                                     </div>
                                 </div>
                             </div>
-                            
+
                             <!-- Row 2 -->
                             <div class="row">
                                 <div class="col-sm-12">
@@ -721,600 +721,611 @@
                             </div>
                         </div>
                     </section>
+
+                    <section id="points">
+                        <!-- Row 1 -->
+                        <div id="paragraph-body">
+                            <div>
+                                <br>
+                                <h4>Points</h4>
+                                <p>Most of this point averages were calculated excluding canceled trips.
+                                    This is because canceled trips do generate points for the driver.
+                                    Calculations that include canceled trips are marked.</p>
+                            </div>
+                        </div>
+                        <div class="stats">
+                            <br>
+                            <div class="stats-body">
+                                <div class="row shadow">
+                                    <div class="col-6 col-sm-4 col-md-6">
+                                        <div class="stats-item">
+                                            <h2><span class="counter">2.88</span></h2>
+                                            <p>Points Per Trip (Including Canceled Trips)</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-md-6">
+                                        <div class="stats-item">
+                                            <h2><span class="counter">3.0</span></h2>
+                                            <p>Points Per Trip</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+        
+                        <!-- Row 2 -->
+                        <div class="stats">
+                            <br>
+                            <div class="stats-body">
+                                <div class="row shadow">
+                                    <div class="col-6 col-sm-4 col-md-4">
+                                        <div class="stats-item">
+                                            <h2><span class="counter">3.01</span></h2>
+                                            <p>Points Per UberX Trip</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-md-4">
+                                        <div class="stats-item">
+                                            <h2><span class="counter">2.78</span></h2>
+                                            <p>Points Per Pool Trip</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-6 col-sm-4 col-md-4">
+                                        <div class="stats-item">
+                                            <h2><span class="counter">2.99</span></h2>
+                                            <p>Points Per Express Pool Trip</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+        
+                        <!-- Row 3 -->
+                        <div class="section-card">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Most, Least, & Average Points Earned
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="pointsPerTrip" height="400"></canvas>
+                                            </div>
+        
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="zip-codes">
+                        <!-- Row 1 -->
+                        <div id="paragraph-body">
+                            <div>
+                                <br>
+                                <h4>Zip Codes</h4>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="section-card">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Top 5 Most Popular Zip Codes
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="zipTopFive" height="400"></canvas>
+                                            </div>
+        
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> Trips
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <!-- Row 2 -->
+                        <div class="section-card">
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            All Zip Codes By Popularity
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="zipAll" height="400"></canvas>
+                                            </div>
+        
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> Trips
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Why is total for express greater than trip price -->
+                    <section id="passenger-payments">
+                        <div id="paragraph-body">
+                            <div>
+                                <br>
+                                <h4>Passenger Payments</h4>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="section-card">
+                            <!-- Row 1 -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Most, Least, & Average Trip Price
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="passengerTripPrice" height="400"></canvas>
+                                            </div>
+
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section-card">
+                            <!-- Row 2 -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Most, Least, & Average Trip Promotion
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="passengerTripPromotion" height="400"></canvas>
+                                            </div>
+
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="section-card">
+                            <!-- Row 3 -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Most, Least, & Average Final Price
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="passengerFinalPrice" height="400"></canvas>
+                                            </div>
+
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="driver-fees">
+                        <!-- Service and booking fees seem off. -->
+                        <div id="paragraph-body">
+                            <div>
+                                <br>
+                                <h4>Driver Fees</h4>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="section-card">
+                            <!-- Row 1 -->
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Uber Fee Breakdown (In Percents)
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="feesBookingAndService" height="400"></canvas>
+                                            </div>
+        
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> Service Fee
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Booking Fee
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                <div class="col-sm-6">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Third Party Fee Breakdown (In Percents)
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="feesThirdPartyFeeBreakdown" height="400"></canvas>
+                                            </div>
+        
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> Airport Surcharge
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Regional Fee
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="section-card">
+                            <!-- Row 2 -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Most, Least, & Average Service Fee
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="feesServiceFee" height="400"></canvas>
+                                            </div>
+        
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="section-card">
+                            <!-- Row 3 -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Most, Least, & Average Booking Fee
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="feesBookingFee" height="400"></canvas>
+                                            </div>
+        
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="section-card">
+                            <!-- Row 4 -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Most, Least, & Average Total Uber Fee
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="feesPaidToUberTotal" height="400"></canvas>
+                                            </div>
+        
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="section-card">
+                            <!-- Row 5 -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Probability Of A Trip With A Third Party Fee
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="feesProbabilityOfThirdPartyFee" height="400"></canvas>
+                                            </div>
+        
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="section-card">
+                            <!-- Row 6 -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Most, Least, & Average Third Party Fee
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="feesPaidToThirdParty" height="400"></canvas>
+                                            </div>
+        
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="canceled-trips">
+                        <!-- Service and booking fees seem off. -->
+                        <div id="paragraph-body">
+                            <div>
+                                <br>
+                                <h4>Canceled Trips</h4>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="section-card">
+                            <!-- Row 1 -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Probability Of A Profitable Canceled Trip (In Percents)
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="canceledProfitableCanceledTrip" height="400"></canvas>
+                                            </div>
+        
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="section-card">
+                            <!-- Row 2 -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Probability Of A Supplemented Canceled Trip (In Percents)
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="canceledSupplementedCanceledTrip" height="400"></canvas>
+                                            </div>
+        
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="section-card">
+                            <!-- Row 3 -->
+                            <div class="row">
+                                <div class="col-sm-12">
+                                    <div class="card shadow mb-3 ">
+                                        <div class="card-header">
+                                            Probability Of A Share Adjusted Canceled Trip (In Percents)
+                                        </div>
+                                        <div class="card-body">
+                                            <div class="">
+                                                <canvas id="canceledShareAdjustedTrip" height="400"></canvas>
+                                            </div>
+        
+                                            <div class="mt-4 text-center small">
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-primary"></i> All Trips
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> UberX
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-info"></i> Pool
+                                                </span>
+                                                <span class="mr-2">
+                                                    <i class="fas fa-square text-success"></i> Express Pool
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </section>
 
-            <section id="general">
-                <!-- Point stats -->
-                <div id="paragraph-body">
-                    <div>
-                        <br>
-                        <h4>Points</h4>
-                        <p>Most of this point averages were calculated excluding canceled trips.
-                            This is because canceled trips do generate points for the driver.
-                            Calculations that include canceled trips are marked.</p>
-                    </div>
-                </div>
-                <div class="stats">
-                    <br>
-                    <div class="stats-body">
-                        <div class="row shadow">
-                            <div class="col-6 col-sm-4 col-md-6">
-                                <div class="stats-item">
-                                    <h2><span class="counter">2.88</span></h2>
-                                    <p>Points Per Trip (Including Canceled Trips)</p>
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-4 col-md-6">
-                                <div class="stats-item">
-                                    <h2><span class="counter">3.0</span></h2>
-                                    <p>Points Per Trip</p>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                    </div>
-                </div>
 
-                <div class="stats">
-                    <br>
-                    <div class="stats-body">
-                        <div class="row shadow">
-                            <div class="col-6 col-sm-4 col-md-4">
-                                <div class="stats-item">
-                                    <h2><span class="counter">3.01</span></h2>
-                                    <p>Points Per UberX Trip</p>
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-4 col-md-4">
-                                <div class="stats-item">
-                                    <h2><span class="counter">2.78</span></h2>
-                                    <p>Points Per Pool Trip</p>
-                                </div>
-                            </div>
-                            <div class="col-6 col-sm-4 col-md-4">
-                                <div class="stats-item">
-                                    <h2><span class="counter">2.99</span></h2>
-                                    <p>Points Per Express Pool Trip</p>
-                                </div>
-                            </div>
-                        </div>
-                        <br>
-                    </div>
-                </div>
 
-                <!-- Row 1 -->
-                <div class="section-card">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="card shadow mb-3 ">
-                                <div class="card-header">
-                                    Most, Least, & Average Points Earned
-                                </div>
-                                <div class="card-body">
-                                    <div class="">
-                                        <canvas id="pointsPerTrip" height="400"></canvas>
-                                    </div>
 
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-primary"></i> All Trips
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> UberX
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-info"></i> Pool
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> Express Pool
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            <section id="general">
-                <!-- Row 1 -->
-                <div id="paragraph-body">
-                    <div>
-                        <br>
-                        <h4>Zip Codes</h4>
-                        <br>
-                    </div>
-                </div>
-                <div class="section-card">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="card shadow mb-3 ">
-                                <div class="card-header">
-                                    Top 5 Most Popular Zip Codes
-                                </div>
-                                <div class="card-body">
-                                    <div class="">
-                                        <canvas id="zipTopFive" height="400"></canvas>
-                                    </div>
 
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-primary"></i> Trips
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <!-- Row 2 -->
-                <div class="section-card">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="card shadow mb-3 ">
-                                <div class="card-header">
-                                    All Zip Codes By Popularity
-                                </div>
-                                <div class="card-body">
-                                    <div class="">
-                                        <canvas id="zipAll" height="400"></canvas>
-                                    </div>
 
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-primary"></i> Trips
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
-            <!-- Why is total for express greater than trip price -->
-            <section id="general">
-                <!-- Row 1 -->
-                <div id="paragraph-body">
-                    <div>
-                        <br>
-                        <h4>Passenger Payments</h4>
-                        <br>
-                    </div>
-                </div>
-                <div class="section-card">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="card shadow mb-3 ">
-                                <div class="card-header">
-                                    Most, Least, & Average Trip Price
-                                </div>
-                                <div class="card-body">
-                                    <div class="">
-                                        <canvas id="passengerTripPrice" height="400"></canvas>
-                                    </div>
 
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-primary"></i> All Trips
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> UberX
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-info"></i> Pool
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> Express Pool
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Row 2 -->
-                <div class="section-card">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="card shadow mb-3 ">
-                                <div class="card-header">
-                                    Most, Least, & Average Trip Promotion
-                                </div>
-                                <div class="card-body">
-                                    <div class="">
-                                        <canvas id="passengerTripPromotion" height="400"></canvas>
-                                    </div>
-
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-primary"></i> All Trips
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> UberX
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-info"></i> Pool
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> Express Pool
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Row 3 -->
-                <div class="section-card">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="card shadow mb-3 ">
-                                <div class="card-header">
-                                    Most, Least, & Average Final Price
-                                </div>
-                                <div class="card-body">
-                                    <div class="">
-                                        <canvas id="passengerFinalPrice" height="400"></canvas>
-                                    </div>
-
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-primary"></i> All Trips
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> UberX
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-info"></i> Pool
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> Express Pool
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="general">
-                <!-- Service and booking fees seem off. -->
-                <!-- Row 1 -->
-                <div id="paragraph-body">
-                    <div>
-                        <br>
-                        <h4>Driver Fees</h4>
-                        <br>
-                    </div>
-                </div>
-                <div class="section-card">
-                    <div class="row">
-                        <div class="col-sm-6">
-                            <div class="card shadow mb-3 ">
-                                <div class="card-header">
-                                    Uber Fee Breakdown (In Percents)
-                                </div>
-                                <div class="card-body">
-                                    <div class="">
-                                        <canvas id="feesBookingAndService" height="400"></canvas>
-                                    </div>
-
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-primary"></i> Service Fee
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> Booking Fee
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-sm-6">
-                            <div class="card shadow mb-3 ">
-                                <div class="card-header">
-                                    Third Party Fee Breakdown (In Percents)
-                                </div>
-                                <div class="card-body">
-                                    <div class="">
-                                        <canvas id="feesThirdPartyFeeBreakdown" height="400"></canvas>
-                                    </div>
-
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-primary"></i> Airport Surcharge
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> Regional Fee
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Row 2 -->
-                <div class="section-card">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="card shadow mb-3 ">
-                                <div class="card-header">
-                                    Most, Least, & Average Service Fee
-                                </div>
-                                <div class="card-body">
-                                    <div class="">
-                                        <canvas id="feesServiceFee" height="400"></canvas>
-                                    </div>
-
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-primary"></i> All Trips
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> UberX
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-info"></i> Pool
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> Express Pool
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Row 3 -->
-                <div class="section-card">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="card shadow mb-3 ">
-                                <div class="card-header">
-                                    Most, Least, & Average Booking Fee
-                                </div>
-                                <div class="card-body">
-                                    <div class="">
-                                        <canvas id="feesBookingFee" height="400"></canvas>
-                                    </div>
-
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-primary"></i> All Trips
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> UberX
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-info"></i> Pool
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> Express Pool
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Row 4 -->
-                <div class="section-card">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="card shadow mb-3 ">
-                                <div class="card-header">
-                                    Most, Least, & Average Total Uber Fee
-                                </div>
-                                <div class="card-body">
-                                    <div class="">
-                                        <canvas id="feesPaidToUberTotal" height="400"></canvas>
-                                    </div>
-
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-primary"></i> All Trips
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> UberX
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-info"></i> Pool
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> Express Pool
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Row 5 -->
-                <div class="section-card">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="card shadow mb-3 ">
-                                <div class="card-header">
-                                    Probability Of A Trip With A Third Party Fee
-                                </div>
-                                <div class="card-body">
-                                    <div class="">
-                                        <canvas id="feesProbabilityOfThirdPartyFee" height="400"></canvas>
-                                    </div>
-
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-primary"></i> All Trips
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> UberX
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-info"></i> Pool
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> Express Pool
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Row 6 -->
-                <div class="section-card">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="card shadow mb-3 ">
-                                <div class="card-header">
-                                    Most, Least, & Average Third Party Fee
-                                </div>
-                                <div class="card-body">
-                                    <div class="">
-                                        <canvas id="feesPaidToThirdParty" height="400"></canvas>
-                                    </div>
-
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-primary"></i> All Trips
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> UberX
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-info"></i> Pool
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> Express Pool
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="general">
-                <!-- Service and booking fees seem off. -->
-                <!-- Row 1 -->
-                <div id="paragraph-body">
-                    <div>
-                        <br>
-                        <h4>Canceled Trips</h4>
-                        <br>
-                    </div>
-                </div>
-                <div class="section-card">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="card shadow mb-3 ">
-                                <div class="card-header">
-                                    Probability Of A Profitable Canceled Trip (In Percents)
-                                </div>
-                                <div class="card-body">
-                                    <div class="">
-                                        <canvas id="canceledProfitableCanceledTrip" height="400"></canvas>
-                                    </div>
-
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-primary"></i> All Trips
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> UberX
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-info"></i> Pool
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> Express Pool
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Row 2 -->
-                <div class="section-card">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="card shadow mb-3 ">
-                                <div class="card-header">
-                                    Probability Of A Supplemented Canceled Trip (In Percents)
-                                </div>
-                                <div class="card-body">
-                                    <div class="">
-                                        <canvas id="canceledSupplementedCanceledTrip" height="400"></canvas>
-                                    </div>
-
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-primary"></i> All Trips
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> UberX
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-info"></i> Pool
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> Express Pool
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Row 3 -->
-                <div class="section-card">
-                    <div class="row">
-                        <div class="col-sm-12">
-                            <div class="card shadow mb-3 ">
-                                <div class="card-header">
-                                    Probability Of A Share Adjusted Canceled Trip (In Percents)
-                                </div>
-                                <div class="card-body">
-                                    <div class="">
-                                        <canvas id="canceledShareAdjustedTrip" height="400"></canvas>
-                                    </div>
-
-                                    <div class="mt-4 text-center small">
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-primary"></i> All Trips
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> UberX
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-info"></i> Pool
-                                        </span>
-                                        <span class="mr-2">
-                                            <i class="fas fa-square text-success"></i> Express Pool
-                                        </span>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
 
             <section id="dia">
                 <!-- Service and booking fees seem off. -->
