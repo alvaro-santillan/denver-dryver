@@ -9,6 +9,10 @@ body {
     background: #fafafa;
 }
 
+h3 {
+  margin-bottom: 0;
+}
+
 p {
     font-family: 'Poppins', sans-serif;
     font-size: 1.1em;
@@ -41,6 +45,12 @@ span {
     SIDEBAR STYLE
 ----------------------------------------------------- */
 
+/* Colorado Flag Colors */
+/* #032A66 Blue */
+/* #BD1134 Red */
+/* #FED530 Yellow */
+/* #FFFFFF White */
+
 .wrapper {
     display: flex;
     align-items: stretch;
@@ -49,8 +59,9 @@ span {
 #sidebar {
     min-width: 250px;
     max-width: 250px;
-    background: #7386D5;
-    color: #fff;
+    background: rgba(3, 42, 102, 0.91);
+    color: #FED530;
+    text-align: center;
     transition: all 0.3s;
 }
 
@@ -83,7 +94,7 @@ span {
     margin-right: 0;
     display: block;
     font-size: 1.8em;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 
 #sidebar.active ul ul a {
@@ -101,7 +112,7 @@ span {
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #6d7fcc;
+    background: #BD1134;
 }
 
 #sidebar .sidebar-header strong {
@@ -111,7 +122,6 @@ span {
 
 #sidebar ul.components {
     padding: 20px 0;
-    border-bottom: 1px solid #47748b;
 }
 
 #sidebar ul li a {
@@ -120,10 +130,10 @@ span {
     display: block;
 }
 
-#sidebar ul li a:hover {
-    color: #7386D5;
-    background: #fff;
-}
+/* #sidebar ul li a:hover {
+    color: #BD1134;
+    background: #BD1134;
+} */
 
 #sidebar ul li a i {
     margin-right: 10px;
@@ -131,8 +141,8 @@ span {
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
-    color: #fff;
-    background: #6d7fcc;
+    /* color: #BD1134;
+    background: #BD1134; */
 }
 
 a[data-toggle="collapse"] {
@@ -148,9 +158,9 @@ a[data-toggle="collapse"] {
 }
 
 ul ul a {
-    font-size: 0.9em !important;
+    /* font-size: 0.9em !important;
     padding-left: 30px !important;
-    background: #6d7fcc;
+    background: #BD1134; */
 }
 
 ul.CTAs {
@@ -162,19 +172,19 @@ ul.CTAs a {
     font-size: 0.9em !important;
     display: block;
     border-radius: 5px;
-    margin-bottom: 5px;
+    /* margin-bottom: 5px; */
 }
 
-a.download {
-    background: #fff;
-    color: #7386D5;
-}
+/* a.download {
+    background: #BD1134;
+    color: #BD1134;
+} */
 
-a.article,
+/* a.article,
 a.article:hover {
-    background: #6d7fcc !important;
-    color: #fff !important;
-}
+    background: #BD1134 !important;
+    color: #BD1134 !important;
+} */
 
 /*=================================================
     NAVIGATION & BUTTONS
@@ -213,22 +223,22 @@ a.article:hover {
   
   /* Unvisited link */
   a:link {
-    color: #127baf;
+    color: #ffffff;
   }
   
   /* Visited link */
   a:visited {
-    color: #127baf;
+    color: #ffffff;
   }
   
   /* Mouse over link */
   a:hover {
-    color: #127baf;
+    color: #BD1134;
   }
   
   /* Selected link */
   a:active {
-    color: #DDD1C7;
+    color: #BD1134;
   }
 
 /* ---------------------------------------------------
