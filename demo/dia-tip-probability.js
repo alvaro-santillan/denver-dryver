@@ -9,14 +9,14 @@ var myPieChart = new Chart(ctx, {
     labels: ["UberX", "Pool", "Express Pool"],
     datasets: [{
       label: "Tipped Trip",
-      backgroundColor: "rgba(154,178,96,0.5)",
-      hoverBackgroundColor: "rgba(154,178,96,1)",
+      backgroundColor: ['rgba(3, 42, 102, 1)', 'rgba(189, 17, 52, 1)', 'rgba(254, 213, 48, 1)'],
+      hoverBackgroundColor: ['#00114D', '#A4001B', '#E5BC17'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
       data: [35.0, 33.33, 0.0],
     }, {
       label: "Non-Tipped Trip",
-      backgroundColor: "rgba(197,213,167,0.5)",
-      hoverBackgroundColor: "rgba(197,213,167,1)",
+      backgroundColor: ['rgba(3, 42, 102, 0.2)', 'rgba(189, 17, 52, 0.2)', 'rgba(254, 213, 48, 0.2)'],
+      hoverBackgroundColor: ['rgba(3, 42, 102, 0.3)', 'rgba(189, 17, 52, 0.3)', 'rgba(254, 213, 48, 0.3)'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
       data: [65, 66.67, 100]
     }]
