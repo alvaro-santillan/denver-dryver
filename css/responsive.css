@@ -1,5 +1,5 @@
 /*=================================================
-            NEW MEDIA
+            SIDE BAR
 =================================================*/
 
 @media (max-width: 768px) {
@@ -54,19 +54,99 @@
 /*=================================================
             EXTRA LARGE MEDIA QUERIES
 =================================================*/
+/* Responsive up to 4000px */
+  @media (min-width: 3500px) {
+    /* All good */
+  }
+  
+  @media (min-width: 3000px) and (max-width: 3499px) {
+    /* All good */
+  }
+  
+  @media (min-width: 2800px) and (max-width: 2999px) {
+    /* All good */
+  }
+  
+  @media (min-width: 2399px) and (max-width: 2799px) {
+    /* All good */
+  }
+  
+  @media (min-width: 2000px) and (max-width: 2399px) {
+    /* All good */
+  }
+  
+  @media (min-width: 1800px) and (max-width: 1999px) {
+    /* All good */
+  }
+  
+  @media (min-width: 1600px) and (max-width: 1799px) {
+    /* All good */
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1599px) {
+    p {
+        font-size: 0.9em;
+    }
 
-/*=================================================
-            LARGE MEDIA QUERIES
-=================================================*/
+    h2 {
+        font-size: 1.3em;
+    }
 
-/*=================================================
-            MEDIUM MEDIA QUERIES
-=================================================*/
+    .card-header {
+        font-size: 0.8em;
+    }
 
-/*=================================================
-            SMALL MEDIA QUERIES
-=================================================*/
-
-/*=================================================
-            EXTRA SMALL MEDIA QUERIES
-=================================================*/
+    .copyright-text {
+        font-size: 0.7em;
+    }
+  }
+  
+  /*=================================================
+              LARGE MEDIA QUERIES
+  =================================================*/
+  /* Non collapsed nav bar min working space */
+  @media (min-width: 1067px) and (max-width: 1199px) {
+    
+  }
+  
+  @media (min-width: 992px) and (max-width: 1066px) {
+    
+  }
+  
+  /*=================================================
+              MEDIUM MEDIA QUERIES
+  =================================================*/
+  @media (min-width: 850px) and (max-width: 991px) {
+    
+  }
+  
+  @media (min-width: 768px) and (max-width: 849px) {
+    
+  }
+  
+  /*=================================================
+              SMALL MEDIA QUERIES
+  =================================================*/
+  @media (min-width: 672px) and (max-width: 767px) {
+    
+  }
+  
+  @media (min-width: 576px) and (max-width: 671px) {
+    
+  }
+  
+  /*=================================================
+              EXTRA SMALL MEDIA QUERIES
+  =================================================*/
+  @media (min-width: 480px) and (max-width: 575px) {
+    
+  }
+  
+  @media (min-width: 390px) and (max-width: 479px) {
+    
+  }
+  
+  /* @media (min-width: 300px) and (max-width: 389px) { */
+  @media (max-width: 389px) {
+    
+  }
