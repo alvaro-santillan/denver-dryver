@@ -41,6 +41,28 @@ span {
     display: inline-block;
 }
 
+/* Icons */
+.col-blue {
+  color: #032A66;
+}
+
+.col-red {
+  color: #BD1134;
+}
+
+.col-yellow {
+  color: #FED530;
+}
+
+.black {
+  color: #1A1A1A;
+}
+
+.purple {
+  color: #6A1B9A;
+}
+
+
 /* ---------------------------------------------------
     SIDEBAR STYLE
 ----------------------------------------------------- */
