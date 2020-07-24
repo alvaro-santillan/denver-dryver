@@ -312,11 +312,117 @@
               SMALL MEDIA QUERIES
   =================================================*/
   @media (min-width: 672px) and (max-width: 767px) {
-    
+    p {
+        font-size: 0.8em;
+    }
+
+    h2 {
+        font-size: 1.0em;
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    #profile-body,
+    #paragraph-body,
+    .stats-body,
+    .stats-item,
+    .section-card,
+    #contact,
+    #footer {
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+
+    #section-title h3 {
+        padding-left: 5%;
+    }
+
+    #section-title h3 {
+        font-size: 35px;
+    }
+
+    .home-body-lower h1 {
+        font-size: 2.3rem;
+      }
+      
+    .home-body-lower h3 {
+        font-size: 1.3rem;
+    }
+
+    .card-header {
+        font-size: 0.8em;
+    }
+
+    .copyright-text {
+        font-size: 0.7em;
+    }
+
+    .contact-greeting {
+        margin-top: 40px;
+    }
+
+    #contact-body {
+        padding-left: 0%;
+    }
   }
   
   @media (min-width: 576px) and (max-width: 671px) {
-    
+    p {
+        font-size: 0.8em;
+    }
+
+    h2 {
+        font-size: 1.0em;
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    #profile-body,
+    #paragraph-body,
+    .stats-body,
+    .stats-item,
+    .section-card,
+    #contact,
+    #footer {
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+
+    #section-title h3 {
+        padding-left: 5%;
+    }
+
+    #section-title h3 {
+        font-size: 35px;
+    }
+
+    .home-body-lower h1 {
+        font-size: 2.3rem;
+      }
+      
+    .home-body-lower h3 {
+        font-size: 1.3rem;
+    }
+
+    .card-header {
+        font-size: 0.8em;
+    }
+
+    .copyright-text {
+        font-size: 0.7em;
+    }
+
+    .contact-greeting {
+        margin-top: 40px;
+    }
+
+    #contact-body {
+        padding-left: 0%;
+    }
   }
   
   /*=================================================
