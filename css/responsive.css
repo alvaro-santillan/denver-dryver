@@ -313,11 +313,11 @@
   =================================================*/
   @media (min-width: 672px) and (max-width: 767px) {
     p {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     h2 {
-        font-size: 1.0em;
+        font-size: 0.9em;
     }
 
     #content {
@@ -370,11 +370,11 @@
   
   @media (min-width: 576px) and (max-width: 671px) {
     p {
-        font-size: 0.8em;
+        font-size: 0.7em;
     }
 
     h2 {
-        font-size: 1.0em;
+        font-size: 0.9em;
     }
 
     #content {
@@ -401,11 +401,11 @@
     }
 
     .home-body-lower h1 {
-        font-size: 2.3rem;
+        font-size: 1.8rem;
       }
       
     .home-body-lower h3 {
-        font-size: 1.3rem;
+        font-size: 1.0rem;
     }
 
     .card-header {
@@ -429,14 +429,173 @@
               EXTRA SMALL MEDIA QUERIES
   =================================================*/
   @media (min-width: 480px) and (max-width: 575px) {
-    
+    p {
+        font-size: 0.7em;
+    }
+
+    h2 {
+        font-size: 0.9em;
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    #profile-body,
+    #paragraph-body,
+    .stats-body,
+    .stats-item,
+    .section-card,
+    #contact,
+    #footer {
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+
+    #section-title h3 {
+        padding-left: 5%;
+    }
+
+    #section-title h3 {
+        font-size: 35px;
+    }
+
+    .home-body-lower h1 {
+        font-size: 1.8rem;
+      }
+      
+    .home-body-lower h3 {
+        font-size: 1.0rem;
+    }
+
+    .card-header {
+        font-size: 0.8em;
+    }
+
+    .copyright-text {
+        font-size: 0.5em;
+    }
+
+    .contact-greeting {
+        margin-top: 40px;
+    }
+
+    #contact-body {
+        padding-left: 0%;
+    }
   }
   
   @media (min-width: 390px) and (max-width: 479px) {
-    
+    p {
+        font-size: 0.7em;
+    }
+
+    h2 {
+        font-size: 0.9em;
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    #profile-body,
+    #paragraph-body,
+    .stats-body,
+    .stats-item,
+    .section-card,
+    #contact,
+    #footer {
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+
+    #section-title h3 {
+        padding-left: 5%;
+    }
+
+    #section-title h3 {
+        font-size: 35px;
+    }
+
+    .home-body-lower h1 {
+        font-size: 1.8rem;
+      }
+      
+    .home-body-lower h3 {
+        font-size: 1.0rem;
+    }
+
+    .card-header {
+        font-size: 0.8em;
+    }
+
+    .copyright-text {
+        font-size: 0.5em;
+    }
+
+    .contact-greeting {
+        margin-top: 40px;
+    }
+
+    #contact-body {
+        padding-left: 0%;
+    }
   }
   
   /* @media (min-width: 300px) and (max-width: 389px) { */
   @media (max-width: 389px) {
-    
+    p {
+        font-size: 0.7em;
+    }
+
+    h2 {
+        font-size: 0.9em;
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    #profile-body,
+    #paragraph-body,
+    .stats-body,
+    .stats-item,
+    .section-card,
+    #contact,
+    #footer {
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+
+    #section-title h3 {
+        padding-left: 5%;
+    }
+
+    #section-title h3 {
+        font-size: 35px;
+    }
+
+    .home-body-lower h1 {
+        font-size: 1.8rem;
+      }
+      
+    .home-body-lower h3 {
+        font-size: 1.0rem;
+    }
+
+    .card-header {
+        font-size: 0.8em;
+    }
+
+    .copyright-text {
+        font-size: 0.5em;
+    }
+
+    .contact-greeting {
+        margin-top: 40px;
+    }
+
+    #contact-body {
+        padding-left: 0%;
+    }
   }
