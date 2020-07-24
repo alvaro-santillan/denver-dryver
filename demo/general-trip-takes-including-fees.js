@@ -10,8 +10,8 @@ var myPieChart = new Chart(ctx, {
     labels: ["Driver", "Uber Technologies", "Third Party Fees", "Tolls"],
     datasets: [{
       data: [72.26, 26.48, 0.84, 0.41],
-      backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
-      hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
+      backgroundColor: ['#FED530', '#BD1134', '#032A66', '#1A1A1A'],
+      hoverBackgroundColor: ['#E5BC17', '#A4001B', '#00114D', '##000000'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
     }],
   }, 

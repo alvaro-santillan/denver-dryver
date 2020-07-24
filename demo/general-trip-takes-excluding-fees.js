@@ -10,8 +10,8 @@ var myPieChart = new Chart(ctx, {
     labels: ["Driver", "Uber Technologies"],
     datasets: [{
       data: [73.18, 26.82],
-      backgroundColor: ['#4e73df', '#1cc88a', '#36b9cc'],
-      hoverBackgroundColor: ['#2e59d9', '#17a673', '#2c9faf'],
+      backgroundColor: ['#FED530', '#BD1134'],
+      hoverBackgroundColor: ['#E5BC17', '#A4001B'],
       hoverBorderColor: "rgba(234, 236, 244, 1)",
     }],
   }, 
