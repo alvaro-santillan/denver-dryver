@@ -493,6 +493,8 @@ a:active {
 #profile-body,
 #paragraph-body,
 .stats-body,
+.stats-item,
+.section-card,
 #contact,
 #footer {
   padding-left: 7.5%;
@@ -504,8 +506,8 @@ a:active {
 }
 
 .stats-item {
-    padding-top: 7.5%;
-    padding-bottom: 7.5%;
+    /* padding-top: 7.5%;
+    padding-bottom: 7.5%; */
     text-align: center;
 }
 
@@ -522,10 +524,10 @@ a:active {
   color: #052230;
 }
 
-.section-card {
+/* .section-card {
     padding-left: 7.5%;
     padding-right: 7.5%;
-}
+} */
 
 /*=================================================
     CONTACT / FOOTER

@@ -105,12 +105,94 @@
               LARGE MEDIA QUERIES
   =================================================*/
   /* Non collapsed nav bar min working space */
-  @media (min-width: 1067px) and (max-width: 1199px) {
-    
+  @media (min-width: 1140px) and (max-width: 1199px) {
+    p {
+        font-size: 0.9em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    #profile-body,
+    #paragraph-body,
+    .stats-body,
+    .stats-item,
+    .section-card,
+    #contact,
+    #footer {
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+
+    #section-title h3 {
+        padding-left: 5%;
+    }
+
+    #section-title h3 {
+        font-size: 35px;
+    }
+
+    .home-body-lower h1 {
+        font-size: 2.7rem;
+      }
+      
+    .home-body-lower h3 {
+        font-size: 1.7rem;
+    }
+
+    .card-header {
+        font-size: 0.8em;
+    }
+
+    .copyright-text {
+        font-size: 0.7em;
+    }
   }
   
-  @media (min-width: 992px) and (max-width: 1066px) {
-    
+  @media (min-width: 992px) and (max-width: 1139px) {
+    p {
+        font-size: 0.9em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    #profile-body,
+    #paragraph-body,
+    .stats-body,
+    .stats-item,
+    .section-card,
+    #contact,
+    #footer {
+    padding-left: 5%;
+    padding-right: 5%;
+    }
+
+    #section-title h3 {
+        padding-left: 5%;
+    }
+
+    #section-title h3 {
+        font-size: 35px;
+    }
+
+    .home-body-lower h1 {
+        font-size: 2.7rem;
+      }
+      
+    .home-body-lower h3 {
+        font-size: 1.7rem;
+    }
+
+    .card-header {
+        font-size: 0.8em;
+    }
+
+    .copyright-text {
+        font-size: 0.7em;
+    }
   }
   
   /*=================================================
