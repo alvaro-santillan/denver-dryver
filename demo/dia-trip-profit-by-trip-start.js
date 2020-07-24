@@ -9,38 +9,38 @@ var myPieChart = new Chart(ctx, {
     // labels: ["Max Service Fee", "Min Service Fee"],
       datasets: [{
         label: 'UberX Starting At DIA',
-        backgroundColor: '#1cc88a',
-        hoverBackgroundColor: '#1cc88a',
+        backgroundColor: '#032A66',
+        hoverBackgroundColor: '#00114D',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [32.71]
       }, {
         label: 'UberX Ending At DIA',
-        backgroundColor: '#1cc88a',
-        hoverBackgroundColor: '#2c9faf',
+        backgroundColor: '#032A66',
+        hoverBackgroundColor: '#00114D',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [27.74]
       }, {
         label: 'Pool Starting At DIA',
-        backgroundColor: '#36b9cc',
-        hoverBackgroundColor: '#1cc88a',
+        backgroundColor: '#BD1134',
+        hoverBackgroundColor: '#A4001B',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [18.04]
       }, {
         label: ['Pool Ending At DIA'],
-        backgroundColor: '#36b9cc',
-        hoverBackgroundColor: '#1cc88a',
+        backgroundColor: '#BD1134',
+        hoverBackgroundColor: '#A4001B',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [26.56]
       }, {
         label: 'Express Starting At DIA',
-        backgroundColor: '#1cc88a',
-        hoverBackgroundColor: '#1cc88a',
+        backgroundColor: '#FED530',
+        hoverBackgroundColor: '#E5BC17',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [0]
       }, {
         label: ['Express Ending At DIA'],
-        backgroundColor: '#1cc88a',
-        hoverBackgroundColor: '#1cc88a',
+        backgroundColor: '#FED530',
+        hoverBackgroundColor: '#E5BC17',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [18.9]
       }]

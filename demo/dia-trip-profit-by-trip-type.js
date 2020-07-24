@@ -9,34 +9,34 @@ var myPieChart = new Chart(ctx, {
     // labels: ["Max Service Fee", "Min Service Fee"],
       datasets: [{
         label: 'UberX',
-        backgroundColor: '#1cc88a',
-        hoverBackgroundColor: '#1cc88a',
+        backgroundColor: '#032A66',
+        hoverBackgroundColor: '#00114D',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [30.27]
       }, {
         label: 'Pool',
-        backgroundColor: '#36b9cc',
-        hoverBackgroundColor: '#2c9faf',
+        backgroundColor: '#BD1134',
+        hoverBackgroundColor: '#A4001B',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [22.78]
       }, {
         label: 'Express Pool',
-        backgroundColor: '#1cc88a',
-        hoverBackgroundColor: '#1cc88a',
+        backgroundColor: '#FED530',
+        hoverBackgroundColor: '#E5BC17',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [18.9]
       }, {
         data: [0]
       }, {
         label: ['Worst'],
-        backgroundColor: '#1cc88a',
-        hoverBackgroundColor: '#1cc88a',
+        backgroundColor: '#1A1A1A',
+        hoverBackgroundColor: '#000000',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [5.42]
       }, {
         label: ['Best'],
-        backgroundColor: '#1cc88a',
-        hoverBackgroundColor: '#1cc88a',
+        backgroundColor: '#6A1B9A',
+        hoverBackgroundColor: '#510281',
         hoverBorderColor: "rgba(234, 236, 244, 1)",
         data: [86.81]
       }]
